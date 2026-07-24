@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-page: #f5f7f8;
+  --color-purple: #9f1ff6;
+  --color-navy: #0f2c53;
+  --color-muted: #5b7392;
+  --color-border: #e4eaf2;
+  --color-border-light: #e5ebf0;
+  --color-surface: #fbfcfe;
+  --color-purple-light: #edf5fe;
+  --color-purple-pale: #e5d9fa;
+  --color-purple-card: #f5e9fe;
+  --color-phone-bg: #e8c5ff;
+  --color-challenge: #e02d3e;
+  --color-challenge-bg: #fcece9;
+  --color-placeholder: #a6b4c3;
+  --color-footer-muted: #99abc7;
+  --color-footer-text: #a6b8d1;
+  --color-footer-line: #334766;
+  --color-green: #168b5c;
+  --color-form-disclaimer: #8b95a0;
+  --font-sans: var(--font-manrope);
+}
+
+body {
+  background: var(--color-page);
+  color: var(--color-navy);
+  font-family: var(--font-manrope), system-ui, sans-serif;
+}
+
+.blur-gradient {
+  background: radial-gradient(
+    circle at -21% -120%,
+    rgba(44, 64, 143, 1) 43%,
+    rgba(201, 212, 239, 1) 59%,
+    rgba(215, 152, 225, 1) 66%,
+    rgba(199, 136, 219, 1) 75%,
+    rgba(165, 101, 206, 1) 100%
+  );
+  filter: blur(120px);
+  pointer-events: none;
+}
+
+@media (min-width: 768px) {
+  .blur-gradient {
+    filter: blur(160px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .blur-gradient {
+    filter: blur(200px);
+  }
+}
