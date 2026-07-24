@@ -1,4 +1,4 @@
-import BlurGradient from "@/components/BlurGradient";
+`import BlurGradient from "@/components/BlurGradient";
 import CtaBanner from "@/components/CtaBanner";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
