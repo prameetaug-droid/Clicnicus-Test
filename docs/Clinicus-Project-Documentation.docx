@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:w="http://schemas.microsoft.com/office/word/2003/wordml">
+  <w:body>
+    <w:p><w:r><w:t>Clinicus Project Documentation</w:t></w:r></w:p>
+    <w:p><w:r><w:t>Generated on 2026-07-24</w:t></w:r></w:p>
+    <w:p><w:r><w:t></w:t></w:r></w:p>
+    <w:p><w:r><w:t>Project Summary</w:t></w:r></w:p>
+    <w:p><w:r><w:t>This workspace contains a Next.js landing page project for Clinicus, built with reusable section components and local assets.</w:t></w:r></w:p>
+    <w:p><w:r><w:t></w:t></w:r></w:p>
+    <w:p><w:r><w:t>What Was Created</w:t></w:r></w:p>
+    <w:p><w:r><w:t>- Next.js landing page app</w:t></w:r></w:p>
+    <w:p><w:r><w:t>- Reusable components for Header, Hero, Solution, Programs, Steps, Testimonials, and Footer</w:t></w:r></w:p>
+    <w:p><w:r><w:t>- Tailwind-based styling and local public images</w:t></w:r></w:p>
+    <w:p><w:r><w:t>- Figma MCP server setup using Node.js and npx</w:t></w:r></w:p>
+    <w:p><w:r><w:t></w:t></w:r></w:p>
+    <w:p><w:r><w:t>How to Run Locally</w:t></w:r></w:p>
+    <w:p><w:r><w:t>1. Open the project folder in a terminal</w:t></w:r></w:p>
+    <w:p><w:r><w:t>2. Run: npm install</w:t></w:r></w:p>
+    <w:p><w:r><w:t>3. Run: npm run dev</w:t></w:r></w:p>
+    <w:p><w:r><w:t>4. Open http://localhost:3000</w:t></w:r></w:p>
+    <w:p><w:r><w:t></w:t></w:r></w:p>
+    <w:p><w:r><w:t>Figma MCP Server Notes</w:t></w:r></w:p>
+    <w:p><w:r><w:t>Node.js and npm were verified locally. The Figma MCP server was launched in stdio mode using the figma-developer-mcp package and a configured API key.</w:t></w:r></w:p>
+    <w:p><w:r><w:t></w:t></w:r></w:p>
+    <w:p><w:r><w:t>Match Checklist Highlights</w:t></w:r></w:p>
+    <w:p><w:r><w:t>- Core structure is implemented</w:t></w:r></w:p>
+    <w:p><w:r><w:t>- Visual matching should be validated against the Figma file</w:t></w:r></w:p>
+    <w:p><w:r><w:t>- Content and spacing still need manual review</w:t></w:r></w:p>
+  </w:body>
+</w:document>

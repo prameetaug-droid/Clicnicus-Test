@@ -1,0 +1,16 @@
+{
+  "mcp": {
+    "servers": {
+      "Framelink MCP for Figma": {
+        "type": "stdio",
+        "command": "C:\\Program Files\\nodejs\\npx.cmd",
+        "args": [
+          "-y",
+          "figma-developer-mcp",
+          "--figma-api-key=figd_lUePmgm_41gnBidnLdoQnggiyQaN0LqK559tgTlH",
+          "--stdio"
+        ]
+      }
+    }
+  }
+}
