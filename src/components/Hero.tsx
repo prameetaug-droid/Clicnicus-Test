@@ -1,5 +1,6 @@
-"use client";
+﻿"use client";
 
+import Script from "next/script";
 import { SectionContainer } from "./SectionContainer";
 
 const features = [
@@ -62,59 +63,22 @@ export default function Hero() {
               See Clinicus in action for your programs.
             </p>
 
-            <form
-              className="mt-5 space-y-4 sm:mt-[23px] sm:space-y-[18px]"
-              onSubmit={(e) => e.preventDefault()}
-            >
-              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-[20px]">
-                <label className="block">
-                  <span className="sr-only">Name</span>
-                  <input
-                    type="text"
-                    placeholder="Name*"
-                    className="h-12 w-full rounded-[10px] border border-border bg-white px-4 text-[12.5px] font-medium text-navy placeholder:text-placeholder outline-none focus:border-purple"
-                  />
-                </label>
-                <label className="block">
-                  <span className="sr-only">Email Address</span>
-                  <input
-                    type="email"
-                    placeholder="Email Address*"
-                    className="h-12 w-full rounded-[10px] border border-border bg-white px-4 text-[12.5px] font-medium text-navy placeholder:text-placeholder outline-none focus:border-purple"
-                  />
-                </label>
-                <label className="block">
-                  <span className="sr-only">Contact Number</span>
-                  <input
-                    type="tel"
-                    placeholder="Contact Number*"
-                    className="h-12 w-full rounded-[10px] border border-border bg-white px-4 text-[12.5px] font-medium text-navy placeholder:text-placeholder outline-none focus:border-purple"
-                  />
-                </label>
-                <label className="block">
-                  <span className="sr-only">Organization</span>
-                  <input
-                    type="text"
-                    placeholder="Organization*"
-                    className="h-12 w-full rounded-[10px] border border-border bg-white px-4 text-[12.5px] font-medium text-navy placeholder:text-placeholder outline-none focus:border-purple"
-                  />
-                </label>
-              </div>
-              <p className="text-[10px] font-medium leading-[15px] text-form-disclaimer">
-                By submitting this form, you agree to receive communications from
-                Clinicus including emails, calls, and marketing messages. You
-                may unsubscribe at any time.
-              </p>
-              <button
-                type="submit"
-                className="h-[52px] w-full rounded-xl bg-purple text-base font-bold text-white transition-opacity hover:opacity-90 sm:h-[58px] sm:text-[18.5px]"
-              >
-                Submit
-              </button>
-            </form>
+            <div className="mt-5 sm:mt-[23px]">
+              <div
+                className="hs-form-html"
+                data-region="na1"
+                data-form-id="099516c3-b602-4fcd-aeda-cc07e30085dd"
+                data-portal-id="51257300"
+              />
+              <Script
+                src="https://js.hsforms.net/forms/embed/developer/51257300.js"
+                strategy="afterInteractive"
+              />
+            </div>
           </div>
         </div>
       </SectionContainer>
+
     </section>
   );
 }
