@@ -24,9 +24,9 @@ export default function Home() {
       <PurposeBuilt />
       <CtaBanner />
       <OurSolution />
+      <StatsSection />
       <Programs />
       <Steps />
-      <StatsSection />
       <Testimonials />
       <Footer />
     </main>

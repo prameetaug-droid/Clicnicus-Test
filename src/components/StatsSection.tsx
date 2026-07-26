@@ -17,7 +17,7 @@ export default function StatsSection() {
       <BlurGradient className="-left-[80px] top-[20%] hidden h-[280px] w-[280px] opacity-40 md:block md:h-[400px] md:w-[400px]" />
 
       <SectionContainer>
-        <div className="flex flex-col gap-6 lg:relative lg:block lg:h-[449px]">
+        <div className="flex flex-col items-center gap-3 text-center sm:gap-[15px] lg:relative lg:block lg:h-[449px]">
           <div
             className="order-2 rounded-[24px] p-6 sm:rounded-[32px] sm:p-8 lg:absolute lg:bottom-0 lg:left-0 lg:order-none lg:flex lg:h-[367px] lg:w-full lg:items-center lg:rounded-[38px] lg:p-0"
             style={{
