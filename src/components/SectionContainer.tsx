@@ -18,7 +18,7 @@ export function SectionContainer({
 
 export function SectionEyebrow({ children }: { children: ReactNode }) {
   return (
-    <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-purple sm:text-[11px]">
+    <p className="text-[10px] font-bold uppercase tracking-[0.12em] sm:text-[11px]" style={{ color: 'var(--color-purple)' }}>
       {children}
     </p>
   );
