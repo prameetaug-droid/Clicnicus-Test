@@ -54,36 +54,40 @@ export default function PurposeBuilt() {
                 key={item.stat}
                 className="relative rounded-[16px] border-0 bg-[rgba(228,234,242,0.56)] w-[811px] h-[155px] p-4 sm:rounded-[20px] sm:p-4 md:p-4 overflow-hidden" style={{ boxSizing: 'border-box' }}
               >
-                <div className="grid gap-6 md:grid-cols-[1fr_auto_1fr] md:items-start md:gap-4 lg:gap-6">
-                  <div>
-                    <span className="challenge-badge">
-                      CHALLENGE
+                <div>
+                  <div style={{ position: 'absolute', width: '80px', height: '26px', left: '37px', top: '23px', background: '#FCECE9', borderRadius: '13px' }} />
+
+                  <span style={{ position: 'absolute', width: '80px', height: '12px', left: '37px', top: '30px', fontFamily: 'Manrope, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif', fontStyle: 'normal', fontWeight: 700, fontSize: '9px', lineHeight: '12px', textAlign: 'center', letterSpacing: '0.4px', color: '#E0492D' }}>
+                    CHALLENGE
+                  </span>
+
+                  <p style={{ position: 'absolute', width: '260px', height: '57px', left: '37px', top: '59px', fontFamily: 'Manrope, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif', fontStyle: 'normal', fontWeight: 500, fontSize: '42px', lineHeight: '57px', margin: 0, color: '#E02D3E' }}>
+                    {item.stat}
+                  </p>
+
+                  <span style={{ position: 'absolute', width: '260px', height: '16px', left: '37px', top: '112px', fontFamily: 'Manrope, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif', fontStyle: 'normal', fontWeight: 600, fontSize: '12px', lineHeight: '16px', color: '#5B7392' }}>
+                    {item.challenge}
+                  </span>
+
+                  <div style={{ position: 'absolute', width: '116px', height: '24px', left: '378px', top: '24px', background: '#EDF5FE', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <span style={{ fontFamily: 'Manrope, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif', fontStyle: 'normal', fontWeight: 700, fontSize: '9px', lineHeight: '12px', textAlign: 'center', letterSpacing: '0.4px', color: '#9F1FF6' }}>
+                      CLINICUS SOLUTION
                     </span>
-                    <p className="mt-2 text-[20px] font-medium text-challenge sm:text-[22px] md:text-[24px]">
-                      {item.stat}
-                    </p>
-                    <p className="mt-1 text-[12px] font-semibold leading-[16px] text-[#5B7392] sm:text-[12px]" style={{ fontFamily: 'Manrope, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif' }}>
-                      {item.challenge}
-                    </p>
                   </div>
 
-                  <div className="hidden md:flex absolute w-[25px] h-[33px] left-[262px] top-[80px] items-center justify-center text-[24px] leading-[33px] font-normal text-[#9F1FF6]" style={{ fontFamily: 'Manrope, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif', fontWeight: 400 }}>
-                    →
+                  <div style={{ position: 'absolute', width: '25px', height: '33px', left: '262px', top: '80px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <span style={{ fontFamily: 'Manrope, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif', fontStyle: 'normal', fontWeight: 400, fontSize: '24px', lineHeight: '33px', color: '#9F1FF6' }}>
+                      →
+                    </span>
                   </div>
 
-                  <div>
-                    <span className="purpose-badge" style={{ position: 'absolute', width: '116px', height: '24px', left: '378px', top: '24px', background: '#EDF5FE', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                      <span style={{ position: 'absolute', width: '114px', height: '12px', left: '378px', top: '30px', fontFamily: 'Manrope, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif', fontStyle: 'normal', fontWeight: 700, fontSize: '9px', lineHeight: '12px', textAlign: 'center', letterSpacing: '0.4px', color: '#9F1FF6' }}>
-                        CLINICUS SOLUTION
-                      </span>
-                    </span>
-                    <p className="mt-1 text-[14px] text-navy sm:text-[15px] md:text-[16px]">
-                      {item.solution}
-                    </p>
-                    <p className="mt-1 text-[11px] leading-[14px] text-muted">
-                      {item.description}
-                    </p>
-                  </div>
+                  <p style={{ position: 'absolute', width: '391px', height: '36px', left: '377px', top: '59px', fontFamily: 'Manrope, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif', fontStyle: 'normal', fontWeight: 400, fontSize: '26px', lineHeight: '36px', margin: 0, color: '#0F2C53' }}>
+                    {item.solution}
+                  </p>
+
+                  <p style={{ position: 'absolute', width: '414px', height: '41px', left: '377px', top: '98px', fontFamily: 'Manrope, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif', fontStyle: 'normal', fontWeight: 500, fontSize: '13px', lineHeight: '19px', margin: 0, color: '#5B7392' }}>
+                    {item.description}
+                  </p>
                 </div>
               </article>
             ))}
