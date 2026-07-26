@@ -381,3 +381,9 @@ body {
 .text-challenge { color: var(--color-challenge) !important; }
 
 article.relative { position: relative; }
+
+/* Feature card solid background (override any gradient) */
+.feature-card {
+  background: #F5E9FE !important; /* solid pale purple */
+  background-image: none !important; /* remove any gradient */
+}
