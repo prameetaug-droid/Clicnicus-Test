@@ -122,6 +122,7 @@ export default function OurSolution() {
               <div
                 key={card.title}
                 className={`relative feature-card flex min-h-[180px] flex-col rounded-[16px] p-5 sm:min-h-[200px] sm:rounded-[18px] lg:min-h-[222px]`}
+                style={{ background: (card.title === 'Tech Integrations' || card.title === 'Risk Monitoring') ? '#F5E9FE' : '#EDF5FE' }}
               >
                 <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-[11px] bg-white">
                   <FeatureIcon type={card.icon} />

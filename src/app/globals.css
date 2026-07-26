@@ -382,8 +382,7 @@ body {
 
 article.relative { position: relative; }
 
-/* Feature card solid background (override any gradient) */
+/* Feature card: remove gradients; color set per-card in component */
 .feature-card {
-  background: #F5E9FE !important; /* solid pale purple */
   background-image: none !important; /* remove any gradient */
 }
