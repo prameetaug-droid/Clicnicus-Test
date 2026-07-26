@@ -28,7 +28,7 @@
   --color-phone-bg: #e8c5ff;  /* updated to match Figma */
 
   /* Misc */
-  --color-challenge: #e02d3e;
+  --color-challenge: #E0492D;
   --color-challenge-bg: #fcece9;
   --color-placeholder: #a6b4c3;
   --color-footer-muted: #99abc7;
@@ -356,8 +356,25 @@ body {
   font-size: 9px !important;
   letter-spacing: 0.0444em !important;
   text-transform: uppercase !important;
-  color: #E0492D !important;
+  color: var(--color-challenge) !important;
   font-family: var(--font-manrope) !important;
+}
+
+/* Purpose solution badge (CLINICUS SOLUTION) background and text color to match Figma */
+.purpose-badge {
+  display: inline-flex;
+  height: 26px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 12px;
+  border-radius: 13px;
+  background: var(--color-purple-pale);
+  color: var(--color-purple);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.0444em;
+  text-transform: uppercase;
+  font-family: var(--font-manrope);
 }
 
 /* Ensure the article is the containing block for the absolute badge */
