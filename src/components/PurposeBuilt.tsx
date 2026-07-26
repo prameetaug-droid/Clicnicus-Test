@@ -72,8 +72,10 @@ export default function PurposeBuilt() {
                   </div>
 
                   <div>
-                    <span className="purpose-badge">
-                      CLINICUS SOLUTION
+                    <span className="purpose-badge" style={{ position: 'absolute', width: '116px', height: '24px', left: '378px', top: '24px', background: '#EDF5FE', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                      <span style={{ position: 'absolute', width: '114px', height: '12px', left: '378px', top: '30px', fontFamily: 'Manrope, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif', fontStyle: 'normal', fontWeight: 700, fontSize: '9px', lineHeight: '12px', textAlign: 'center', letterSpacing: '0.4px', color: '#9F1FF6' }}>
+                        CLINICUS SOLUTION
+                      </span>
                     </span>
                     <p className="mt-1 text-[14px] text-navy sm:text-[15px] md:text-[16px]">
                       {item.solution}
