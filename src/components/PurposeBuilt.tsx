@@ -52,7 +52,7 @@ export default function PurposeBuilt() {
             {challenges.map((item) => (
               <article
                 key={item.stat}
-                className="relative rounded-[16px] border border-[#E6EBF0] bg-[rgba(228,234,242,0.56)] p-5 sm:rounded-[20px] sm:p-6 md:p-8" style={{ boxSizing: 'border-box' }}
+                className="relative rounded-[16px] border-0 bg-[rgba(228,234,242,0.56)] p-5 sm:rounded-[20px] sm:p-6 md:p-8" style={{ boxSizing: 'border-box' }}
               >
                 <div className="grid gap-6 md:grid-cols-[1fr_auto_1fr] md:items-start md:gap-4 lg:gap-6">
                   <div>
