@@ -121,7 +121,8 @@ export default function OurSolution() {
             {featureCards.map((card) => (
               <div
                 key={card.title}
-                className={`relative flex min-h-[180px] flex-col rounded-[16px] p-5 sm:min-h-[200px] sm:rounded-[18px] lg:min-h-[222px] ${card.bg}`}
+                className={`relative flex min-h-[180px] flex-col rounded-[16px] p-5 sm:min-h-[200px] sm:rounded-[18px] lg:min-h-[222px]`}
+                style={{ background: '#F5E9FE' }}
               >
                 <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-[11px] bg-white">
                   <FeatureIcon type={card.icon} />
