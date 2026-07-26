@@ -72,7 +72,7 @@ export default function PurposeBuilt() {
                   </div>
 
                   <div>
-                    <span className="inline-flex h-6 items-center justify-center rounded-xl bg-purple-light px-3 text-[9px] font-bold uppercase tracking-[0.0444em] text-purple">
+                    <span className="inline-flex h-6 items-center justify-center rounded-xl bg-purple-light px-3 text-[9px] font-bold uppercase tracking-[0.0444em] text-purple" style={{ color: '#9F1FF6' }}>
                       CLINICUS SOLUTION
                     </span>
                     <p className="mt-3 text-xl text-navy sm:text-2xl md:text-[26px]">
