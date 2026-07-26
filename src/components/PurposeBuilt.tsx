@@ -67,7 +67,7 @@ export default function PurposeBuilt() {
                     </p>
                   </div>
 
-                  <div className="hidden items-center justify-center text-2xl text-purple md:flex">
+                  <div className="hidden md:flex absolute w-[25px] h-[33px] left-[262px] top-[80px] items-center justify-center text-[24px] leading-[33px] font-normal text-[#9F1FF6]" style={{ fontFamily: 'Manrope, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif', fontWeight: 400 }}>
                     →
                   </div>
 
