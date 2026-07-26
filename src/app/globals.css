@@ -280,6 +280,25 @@ footer.bg-navy > .z-10, footer.bg-navy .z-10 {
   z-index: 10;
 }
 
+/* Force primary footer text to pure white to match Figma */
+/* Targets any element inside footer using text-white and the main heading */
+footer.bg-navy h2,
+footer.bg-navy h2 span,
+footer.bg-navy [class*="text-white"] {
+  color: #FFFFFF !important;
+}
+
+/* Keep secondary footer text muted where appropriate */
+footer.bg-navy .text-footer-text,
+footer.bg-navy .text-footer-muted {
+  color: var(--color-footer-text) !important;
+}
+
+/* Optional: ensure copyright/footer small links stay subtle */
+footer.bg-navy .text-[11px] {
+  color: var(--color-footer-muted) !important;
+}
+
 /* Form disclaimer / small muted text */
 .hs-form .form-disclaimer,
 .demo-card .form-disclaimer {
