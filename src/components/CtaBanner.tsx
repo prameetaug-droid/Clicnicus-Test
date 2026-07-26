@@ -23,7 +23,7 @@ export default function CtaBanner() {
               href="#demo"
               className="mt-5 inline-flex h-11 w-fit items-center justify-center rounded-[12px] bg-white px-6 text-sm font-bold text-navy transition-opacity hover:opacity-90 sm:mt-[15px] sm:h-12 sm:w-[153px] sm:text-[15.3px]"
             >
-              Book A Demo
+              Book Your Demo
             </a>
           </div>
 

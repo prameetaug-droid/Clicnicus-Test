@@ -15,7 +15,7 @@ export default function Header() {
         />
         <a
           href="tel:+18337998881"
-          className="flex h-9 shrink-0 items-center justify-center gap-1.5 rounded-[10px] bg-phone-bg px-2.5 py-2 sm:h-10 sm:gap-[7px] sm:px-[7px] md:w-[154px]"
+          className="header-phone flex h-9 shrink-0 items-center justify-center gap-1.5 px-2.5 py-2 sm:h-10 sm:gap-[7px] sm:px-[7px] md:w-[154px]"
         >
           <Image
             src="/images/phone-icon.svg"
@@ -25,9 +25,9 @@ export default function Header() {
             className="h-[18px] w-[18px] sm:h-[22px] sm:w-[22px]"
             aria-hidden
           />
-          <span className="text-[10px] font-bold text-navy sm:text-[12.5px]">
-            <span className="hidden min-[400px]:inline">+1 833-799-8881</span>
-            <span className="min-[400px]:hidden">Call Us</span>
+          <span className="text-[10px] sm:text-[12.5px] font-bold sm:leading-[17.075px] text-navy">
+            <span className="hidden sm:inline">+1 833-799-8881</span>
+            <span className="inline sm:hidden">Call Us</span>
           </span>
         </a>
       </SectionContainer>

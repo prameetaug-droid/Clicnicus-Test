@@ -11,21 +11,17 @@ export default function StatsBar() {
   return (
     <section className="pt-8 md:pt-12 lg:pt-[58px]">
       <SectionContainer>
-        <div className="overflow-hidden rounded-[16px] border border-border-light bg-border sm:rounded-[20px]">
-          <div className="grid grid-cols-2 lg:flex lg:h-[140px] lg:items-center">
+        <div className="rounded-[20px] border border-[#e5ebf0] bg-[#e4eaf2] px-0 py-8 lg:h-[140px] lg:py-[31px]">
+          <div className="flex flex-col items-center justify-center gap-6 lg:flex-row lg:gap-0">
             {stats.map((stat, index) => (
               <div
                 key={stat.label}
-                className={`flex flex-col items-center justify-center px-4 py-6 sm:py-8 lg:flex-1 lg:border-l lg:border-border lg:py-[31px] ${
-                  index % 2 === 0 ? "border-r border-border lg:border-r-0" : ""
-                } ${index < 2 ? "border-b border-border lg:border-b-0" : ""} ${
-                  index === 0 ? "lg:border-l-0" : ""
-                }`}
+                className="flex w-full flex-col items-center justify-center lg:w-[300px]"
               >
-                <span className="text-[28px] font-extrabold text-navy sm:text-[36px] lg:text-[45px]">
+                <span className="text-[45px] font-extrabold text-[#0f2c53]">
                   {stat.value}
                 </span>
-                <span className="text-sm font-medium text-muted sm:text-base lg:text-[17.5px]">
+                <span className="text-[17.5px] font-medium text-[#5b7392]">
                   {stat.label}
                 </span>
               </div>

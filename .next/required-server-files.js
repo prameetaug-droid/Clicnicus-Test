@@ -104,7 +104,7 @@ self.__SERVER_FILES_MANIFEST={
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "D:\\Prameet\\clinicus-landing_cursor",
+    "outputFileTracingRoot": "C:\\Users\\myban\\OneDrive\\Documents\\GitHub\\Clicnicus-Test",
     "cacheComponents": false,
     "cacheLife": {
       "default": {
@@ -303,11 +303,11 @@ self.__SERVER_FILES_MANIFEST={
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.ts",
     "turbopack": {
-      "root": "D:\\Prameet\\clinicus-landing_cursor"
+      "root": "C:\\Users\\myban\\OneDrive\\Documents\\GitHub\\Clicnicus-Test"
     },
     "distDirRoot": ".next"
   },
-  "appDir": "D:\\Prameet\\clinicus-landing_cursor",
+  "appDir": "C:\\Users\\myban\\OneDrive\\Documents\\GitHub\\Clicnicus-Test",
   "relativeAppDir": "",
   "files": [
     ".next\\package.json",

@@ -180,7 +180,7 @@ function CtaBanner() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                     href: "#demo",
                                     className: "mt-5 inline-flex h-11 w-fit items-center justify-center rounded-[12px] bg-white px-6 text-sm font-bold text-navy transition-opacity hover:opacity-90 sm:mt-[15px] sm:h-12 sm:w-[153px] sm:text-[15.3px]",
-                                    children: "Book A Demo"
+                                    children: "Book Your Demo"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/CtaBanner.tsx",
                                     lineNumber: 22,
@@ -514,7 +514,7 @@ function Header() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: "tel:+18337998881",
-                        className: "flex h-9 shrink-0 items-center justify-center gap-1.5 rounded-[10px] bg-phone-bg px-2.5 py-2 sm:h-10 sm:gap-[7px] sm:px-[7px] md:w-[154px]",
+                        className: "header-phone flex h-9 shrink-0 items-center justify-center gap-1.5 px-2.5 py-2 sm:h-10 sm:gap-[7px] sm:px-[7px] md:w-[154px]",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                 src: "/images/phone-icon.svg",
@@ -529,10 +529,10 @@ function Header() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-[10px] font-bold text-navy sm:text-[12.5px]",
+                                className: "text-[10px] sm:text-[12.5px] font-bold sm:leading-[17.075px] text-navy",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "hidden min-[400px]:inline",
+                                        className: "hidden sm:inline",
                                         children: "+1 833-799-8881"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Header.tsx",
@@ -540,7 +540,7 @@ function Header() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "min-[400px]:hidden",
+                                        className: "inline sm:hidden",
                                         children: "Call Us"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Header.tsx",
@@ -631,15 +631,15 @@ function HeroImage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "relative mt-8 overflow-hidden md:mt-11",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "relative mx-auto max-w-[1440px] px-5 sm:px-8 md:px-0",
+            className: "relative w-full",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "relative h-[220px] w-full overflow-hidden rounded-2xl sm:h-[300px] md:h-[360px] md:rounded-none lg:h-[431px]",
+                className: "relative h-[220px] w-screen overflow-hidden rounded-2xl sm:h-[300px] md:h-[360px] md:rounded-none lg:h-[431px]",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                         src: "/images/hero-doctor-79299a.png",
                         alt: "Experienced doctor using smartphone",
                         fill: true,
-                        className: "object-cover object-center",
+                        className: "object-cover object-center hero-image-grayscale",
                         priority: true
                     }, void 0, false, {
                         fileName: "[project]/src/components/HeroImage.tsx",
@@ -676,20 +676,10 @@ function HeroImage() {
                                 lineNumber: 27,
                                 columnNumber: 13
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                className: "mt-2 w-full sm:mt-3",
-                                viewBox: "0 0 256 24",
-                                fill: "none",
-                                "aria-hidden": true,
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                    d: "M0 20 L30 18 L60 12 L90 16 L120 8 L150 14 L180 6 L210 10 L256 4",
-                                    stroke: "#9F1FF6",
-                                    strokeWidth: "2"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/HeroImage.tsx",
-                                    lineNumber: 36,
-                                    columnNumber: 15
-                                }, this)
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                src: "/images/Vector.svg",
+                                alt: "trend chart",
+                                className: "mt-2 w-full sm:mt-3"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroImage.tsx",
                                 lineNumber: 30,
@@ -705,7 +695,7 @@ function HeroImage() {
                                                 children: "Blood Pressure"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/HeroImage.tsx",
-                                                lineNumber: 44,
+                                                lineNumber: 37,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -713,13 +703,13 @@ function HeroImage() {
                                                 children: "121/80"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/HeroImage.tsx",
-                                                lineNumber: 47,
+                                                lineNumber: 40,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/HeroImage.tsx",
-                                        lineNumber: 43,
+                                        lineNumber: 36,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -727,20 +717,20 @@ function HeroImage() {
                                         children: "Normal"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HeroImage.tsx",
-                                        lineNumber: 51,
+                                        lineNumber: 44,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "h-3 w-3 rounded-full bg-green sm:h-[14px] sm:w-[14px]"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HeroImage.tsx",
-                                        lineNumber: 54,
+                                        lineNumber: 47,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/HeroImage.tsx",
-                                lineNumber: 42,
+                                lineNumber: 35,
                                 columnNumber: 13
                             }, this)
                         ]
@@ -752,12 +742,13 @@ function HeroImage() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute bottom-[8%] left-[50%] hidden -translate-x-1/2 items-center gap-2 rounded-2xl bg-white px-2 py-2 shadow-[0px_14px_28px_0px_rgba(15,26,51,0.16)] sm:flex md:bottom-auto md:left-[37%] md:top-[62%] md:w-[212px] md:translate-x-0 md:gap-3 md:px-[9px] lg:left-[527px] lg:top-[262px]",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-purple text-[10px] font-bold text-white md:h-10 md:w-10 md:text-[12px]",
-                                children: "SC"
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                src: "/images/SCname.svg",
+                                alt: "SC initials",
+                                className: "h-8 w-8 shrink-0 rounded-full md:h-10 md:w-10"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroImage.tsx",
-                                lineNumber: 60,
+                                lineNumber: 53,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -767,7 +758,7 @@ function HeroImage() {
                                         children: "Dr. Sarah Chen"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HeroImage.tsx",
-                                        lineNumber: 64,
+                                        lineNumber: 59,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -775,44 +766,47 @@ function HeroImage() {
                                         children: "Care Coordinator"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HeroImage.tsx",
-                                        lineNumber: 67,
+                                        lineNumber: 62,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/HeroImage.tsx",
-                                lineNumber: 63,
+                                lineNumber: 58,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/HeroImage.tsx",
-                        lineNumber: 59,
+                        lineNumber: 52,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute right-[4%] top-[18%] hidden h-12 w-[42%] max-w-[209px] items-center gap-2 rounded-[32px] border border-border bg-white px-3 shadow-[0px_14px_28px_0px_rgba(15,26,51,0.16)] md:flex md:h-16 md:gap-3 md:px-[18px] lg:right-[211px] lg:top-[218px]",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-green text-xs font-bold text-white md:h-8 md:w-8 md:text-[14px]",
-                                children: "✓"
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                src: "/images/Greentick.svg",
+                                alt: "checkmark",
+                                width: 28,
+                                height: 28,
+                                className: "h-7 w-7 shrink-0 md:h-8 md:w-8"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroImage.tsx",
-                                lineNumber: 75,
-                                columnNumber: 13
+                                lineNumber: 70,
+                                columnNumber: 12
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "text-[11px] font-medium text-muted md:text-[13px]",
                                 children: "Find patient by ID..."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroImage.tsx",
-                                lineNumber: 78,
-                                columnNumber: 13
+                                lineNumber: 77,
+                                columnNumber: 12
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/HeroImage.tsx",
-                        lineNumber: 74,
+                        lineNumber: 69,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -826,48 +820,30 @@ function HeroImage() {
                                 children: "ALERT"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroImage.tsx",
-                                lineNumber: 88,
-                                columnNumber: 13
+                                lineNumber: 87,
+                                columnNumber: 12
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-[11.5px] font-bold text-white",
                                 children: "Patients at Risk"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroImage.tsx",
-                                lineNumber: 91,
-                                columnNumber: 13
+                                lineNumber: 90,
+                                columnNumber: 12
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "mt-2 rounded-[9.7px] bg-white/8 p-2 lg:mt-3 lg:p-2.5",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "flex items-center gap-2",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex h-7 w-7 items-center justify-center rounded-[8.5px] bg-white/12 lg:h-8 lg:w-8",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                                width: "15",
-                                                height: "13",
-                                                viewBox: "0 0 15 13",
-                                                fill: "none",
-                                                "aria-hidden": true,
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                                    d: "M7.5 1L1 12H14L7.5 1Z",
-                                                    stroke: "#FCA292",
-                                                    strokeWidth: "1.1"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/HeroImage.tsx",
-                                                    lineNumber: 102,
-                                                    columnNumber: 21
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/HeroImage.tsx",
-                                                lineNumber: 95,
-                                                columnNumber: 19
-                                            }, this)
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                            src: "/images/Triangle.svg",
+                                            alt: "alert triangle",
+                                            className: "h-8 w-8 shrink-0"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HeroImage.tsx",
-                                            lineNumber: 94,
-                                            columnNumber: 17
+                                            lineNumber: 93,
+                                            columnNumber: 16
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: [
@@ -876,46 +852,46 @@ function HeroImage() {
                                                     children: "3 patients flagged for"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HeroImage.tsx",
-                                                    lineNumber: 110,
-                                                    columnNumber: 19
+                                                    lineNumber: 99,
+                                                    columnNumber: 18
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "text-[8.5px] font-bold leading-tight text-white",
                                                     children: "abnormal vitals today"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/HeroImage.tsx",
-                                                    lineNumber: 113,
-                                                    columnNumber: 19
+                                                    lineNumber: 102,
+                                                    columnNumber: 18
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/HeroImage.tsx",
-                                            lineNumber: 109,
-                                            columnNumber: 17
+                                            lineNumber: 98,
+                                            columnNumber: 16
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/HeroImage.tsx",
-                                    lineNumber: 93,
-                                    columnNumber: 15
+                                    lineNumber: 92,
+                                    columnNumber: 14
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroImage.tsx",
-                                lineNumber: 92,
-                                columnNumber: 13
+                                lineNumber: 91,
+                                columnNumber: 12
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "mt-1.5 text-[6.7px] font-medium text-[#A6A6AD] lg:mt-2",
                                 children: "Action required, please review care plans."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroImage.tsx",
-                                lineNumber: 119,
-                                columnNumber: 13
+                                lineNumber: 108,
+                                columnNumber: 12
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/HeroImage.tsx",
-                        lineNumber: 84,
+                        lineNumber: 83,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -924,12 +900,28 @@ function HeroImage() {
                             background: "rgba(0, 0, 0, 0.24)"
                         },
                         children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "absolute right-3 top-3 md:right-[18px] md:top-[18px]",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                    src: "/images/thumb.svg",
+                                    alt: "thumbs up",
+                                    className: "h-6 w-6 md:h-7 md:w-7"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/HeroImage.tsx",
+                                    lineNumber: 119,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/HeroImage.tsx",
+                                lineNumber: 118,
+                                columnNumber: 13
+                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-[6px] font-bold uppercase tracking-[0.1053em] text-white md:text-[7.1px]",
                                 children: "SMART SCALE DATA"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroImage.tsx",
-                                lineNumber: 129,
+                                lineNumber: 125,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -937,7 +929,7 @@ function HeroImage() {
                                 children: "Weight Tracking"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroImage.tsx",
-                                lineNumber: 132,
+                                lineNumber: 128,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -945,7 +937,7 @@ function HeroImage() {
                                 children: "195 lbs"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroImage.tsx",
-                                lineNumber: 135,
+                                lineNumber: 131,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -953,13 +945,13 @@ function HeroImage() {
                                 children: "You have lost 3 lbs. Good job!"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HeroImage.tsx",
-                                lineNumber: 138,
+                                lineNumber: 134,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/HeroImage.tsx",
-                        lineNumber: 125,
+                        lineNumber: 114,
                         columnNumber: 11
                     }, this)
                 ]
@@ -1603,26 +1595,26 @@ function StatsBar() {
         className: "pt-8 md:pt-12 lg:pt-[58px]",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SectionContainer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["SectionContainer"], {
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "overflow-hidden rounded-[16px] border border-border-light bg-border sm:rounded-[20px]",
+                className: "rounded-[20px] border border-[#e5ebf0] bg-[#e4eaf2] px-0 py-8 lg:h-[140px] lg:py-[31px]",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid grid-cols-2 lg:flex lg:h-[140px] lg:items-center",
+                    className: "flex flex-col items-center justify-center gap-6 lg:flex-row lg:gap-0",
                     children: stats.map((stat, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: `flex flex-col items-center justify-center px-4 py-6 sm:py-8 lg:flex-1 lg:border-l lg:border-border lg:py-[31px] ${index % 2 === 0 ? "border-r border-border lg:border-r-0" : ""} ${index < 2 ? "border-b border-border lg:border-b-0" : ""} ${index === 0 ? "lg:border-l-0" : ""}`,
+                            className: "flex w-full flex-col items-center justify-center lg:w-[300px]",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-[28px] font-extrabold text-navy sm:text-[36px] lg:text-[45px]",
+                                    className: "text-[45px] font-extrabold text-[#0f2c53]",
                                     children: stat.value
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/StatsBar.tsx",
-                                    lineNumber: 25,
+                                    lineNumber: 21,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-sm font-medium text-muted sm:text-base lg:text-[17.5px]",
+                                    className: "text-[17.5px] font-medium text-[#5b7392]",
                                     children: stat.label
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/StatsBar.tsx",
-                                    lineNumber: 28,
+                                    lineNumber: 24,
                                     columnNumber: 17
                                 }, this)
                             ]

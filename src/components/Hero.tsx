@@ -1,6 +1,5 @@
 ﻿"use client";
 
-import Script from "next/script";
 import { SectionContainer } from "./SectionContainer";
 
 const features = [
@@ -47,34 +46,61 @@ export default function Hero() {
 
           <div
             id="demo"
-            className="w-full rounded-[20px] px-6 pb-8 pt-6 sm:rounded-[24px] sm:px-8 lg:max-w-[581px] lg:shrink-0 lg:rounded-[28px] lg:px-11 lg:pb-9 lg:pt-[30px]"
+            className="w-full rounded-[28px] px-11 py-9 lg:max-w-[581px] lg:shrink-0"
             style={{
               background:
                 "linear-gradient(180deg, rgba(248, 238, 255, 0.3) 0%, rgba(159, 31, 246, 0.13) 100%)",
             }}
           >
-            <p className="text-center text-[10px] font-bold uppercase tracking-[0.1273em] text-purple sm:text-[11px]">
-              BOOK YOUR DEMO
-            </p>
-            <h2 className="mt-3 text-center text-[26px] font-extrabold text-navy sm:mt-4 sm:text-[32px]">
-              Book a 30-Min Demo
-            </h2>
-            <p className="mt-1 text-center text-[13px] font-medium text-muted sm:mt-[6px] sm:text-[14px]">
-              See Clinicus in action for your programs.
-            </p>
-
-            <div className="mt-5 sm:mt-[23px]">
-              <div
-                className="hs-form-html"
-                data-region="na1"
-                data-form-id="099516c3-b602-4fcd-aeda-cc07e30085dd"
-                data-portal-id="51257300"
-              />
-              <Script
-                src="https://js.hsforms.net/forms/embed/developer/51257300.js"
-                strategy="afterInteractive"
-              />
+            <div className="text-center">
+              <span className="badge">BOOK YOUR DEMO</span>
+              <h2 className="mt-6 text-[32px] font-extrabold leading-normal text-navy">
+                Book a 30-Min Demo
+              </h2>
+              <p className="mx-auto mt-3 text-[14px] font-medium leading-normal text-[#5b7392]">
+                See Clinicus in action for your programs.
+              </p>
             </div>
+
+            <form className="mt-8 space-y-6">
+              <div className="grid grid-cols-2 gap-6">
+                <input
+                  type="text"
+                  placeholder="Name*"
+                  required
+                  className="h-12 rounded-[10px] border border-[#e4eaf2] bg-white px-4 text-sm font-medium placeholder-[#a6b4c3] focus:outline-none focus:ring-2 focus:ring-purple/20"
+                />
+                <input
+                  type="email"
+                  placeholder="Email Address*"
+                  required
+                  className="h-12 rounded-[10px] border border-[#e4eaf2] bg-white px-4 text-sm font-medium placeholder-[#a6b4c3] focus:outline-none focus:ring-2 focus:ring-purple/20"
+                />
+                <input
+                  type="tel"
+                  placeholder="Contact Number*"
+                  required
+                  className="h-12 rounded-[10px] border border-[#e4eaf2] bg-white px-4 text-sm font-medium placeholder-[#a6b4c3] focus:outline-none focus:ring-2 focus:ring-purple/20"
+                />
+                <input
+                  type="text"
+                  placeholder="Organization*"
+                  required
+                  className="h-12 rounded-[10px] border border-[#e4eaf2] bg-white px-4 text-sm font-medium placeholder-[#a6b4c3] focus:outline-none focus:ring-2 focus:ring-purple/20"
+                />
+              </div>
+
+              <p className="text-center text-[10px] font-medium leading-[15px] text-[#8b95a0]">
+                By submitting this form, you agree to receive communications from Clinicus including emails, calls, and marketing messages. You may unsubscribe at any time.
+              </p>
+
+              <button
+                type="submit"
+                className="w-full rounded-[12px] bg-[#9f1ff6] py-3.5 text-center text-[18.5px] font-bold text-white hover:bg-[#8b1ae6] transition-colors"
+              >
+                Submit
+              </button>
+            </form>
           </div>
         </div>
       </SectionContainer>

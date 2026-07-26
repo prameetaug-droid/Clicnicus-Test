@@ -1,17 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700;800;900&display=swap');
 @import "tailwindcss";
 
-@theme inline {
-  --color-page: #f5f7f8;
-  --color-purple: #9f1ff6;
+:root {
+  /* Page / background */
+  --color-page: #f6f6f8; /* very light grey */
+
+  /* Primary purple used for CTAs (solid & gradient) */
+  /* Primary Figma purple */
+  --color-purple: #9F1FF6; /* rgb(159,31,246) */
+  --color-purple-start: #9F1FF6;
+  --color-purple-end: #9F1FF6;
+  --color-purple-gradient: linear-gradient(90deg, var(--color-purple-start) 0%, var(--color-purple-end) 100%);
+
+  /* Text */
   --color-navy: #0f2c53;
-  --color-muted: #5b7392;
-  --color-border: #e4eaf2;
-  --color-border-light: #e5ebf0;
-  --color-surface: #fbfcfe;
-  --color-purple-light: #edf5fe;
-  --color-purple-pale: #e5d9fa;
-  --color-purple-card: #f5e9fe;
-  --color-phone-bg: #e8c5ff;
+  --color-muted: #6b7c92;
+
+  /* Borders & surfaces */
+  --color-border: #e9eef6;
+  --color-border-light: #eef4fb;
+  --color-surface: #ffffff;
+
+  /* Purple tones for cards/backgrounds */
+  --color-purple-light: #f3e9ff;
+  --color-purple-pale: #efe2fb;
+  --color-purple-card: #f6eefe;
+  --color-phone-bg: #e8c5ff;  /* updated to match Figma */
+
+  /* Misc */
   --color-challenge: #e02d3e;
   --color-challenge-bg: #fcece9;
   --color-placeholder: #a6b4c3;
@@ -20,8 +36,10 @@
   --color-footer-line: #334766;
   --color-green: #168b5c;
   --color-form-disclaimer: #8b95a0;
+  --font-manrope: 'Manrope', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
   --font-sans: var(--font-manrope);
 }
+
 
 body {
   background: var(--color-page);
@@ -52,4 +70,270 @@ body {
   .blur-gradient {
     filter: blur(200px);
   }
+}
+
+/* HubSpot form styling for the demo card */
+.hs-form {
+  display: grid;
+  gap: 16px;
+}
+.hs-form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.hs-form-field label {
+  color: var(--color-navy);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.hs-form input,
+.hs-form textarea,
+.hs-form select {
+  width: 100%;
+  min-height: 46px;
+  border: 1px solid var(--color-border-light);
+  border-radius: 16px;
+  background: #ffffff;
+  padding: 14px 16px;
+  color: var(--color-navy);
+}
+.hs-form input:focus,
+.hs-form textarea:focus,
+.hs-form select:focus {
+  outline: 2px solid rgba(159, 31, 246, 0.24);
+  outline-offset: 2px;
+}
+.hs-form .hs-button {
+  /* Figma button: solid primary, 12px corner radius, 58px height, precise typography */
+  background: var(--color-purple);
+  border: none;
+  border-radius: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 18.5px;
+  line-height: 25.271px;
+  padding: 0 24px; /* height controls vertical size */
+  height: 58px;
+  text-align: center;
+  letter-spacing: 0px;
+  box-shadow: 0 10px 24px rgba(159,31,246,0.24);
+}
+.hs-form .hs-button:hover {
+  opacity: 0.92;
+}
+.hs-form .hs-fieldtype-radio,
+.hs-form .hs-fieldtype-checkbox {
+  gap: 10px;
+}
+
+/* Hero image: render doctor image in full grayscale to match design */
+.hero-image-grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+/* Demo card (Book your demo) — styles matched to Figma */
+.demo-card {
+  border-radius: 28px; /* match corner radius */
+  border: 1px solid rgba(159,31,246,0.06); /* subtle purple border (Figma primary) */
+  /* Figma card gradient: match inline style used in Hero.tsx for consistent rendering */
+  background: linear-gradient(180deg, rgba(248,238,255,0.9) 0%, rgba(255,255,255,0.98) 100%);
+  padding: 18px; /* tightened to better match Figma spacing */
+  box-shadow: 0 10px 24px rgba(15,26,51,0.06);
+}
+
+/* Badge (BOOK YOUR DEMO) */
+.demo-card .badge {
+  display: inline-block;
+  background: rgba(159,31,246,0.06);
+  color: #9F1FF6;
+  font-size: 10px; /* slightly reduced */
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 999px;
+  line-height: 1;
+}
+
+/* Make .badge globally available (badge sits outside .demo-card in the markup) */
+.badge {
+  display: inline-block;
+  background: rgba(159,31,246,0.06);
+  color: #9F1FF6;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 999px;
+  line-height: 1;
+}
+
+/* HubSpot form — grid and fields to match Figma layout */
+.hs-form {
+  display: grid;
+  gap: 16px;
+}
+@media (min-width: 640px) {
+  .hs-form {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px 18px;
+  }
+}
+
+.hs-form input,
+.hs-form textarea,
+.hs-form select {
+  width: 100%;
+  min-height: 48px;
+  border: 1px solid var(--color-border-light);
+  border-radius: 10px; /* matches Figma rounded inputs (10px) */
+  background: #ffffff;
+  padding: 14px 16px;
+  color: var(--color-navy);
+  box-shadow: none;
+}
+
+.hs-form .hs-form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hs-form label {
+  color: var(--color-navy);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* CTA button styled to match Figma demo screenshot */
+.hs-form .hs-button {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  background: var(--color-purple);
+  border: none;
+  border-radius: 12px; /* Figma: 12px */
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 18.5px;
+  line-height: 25.271px;
+  padding: 0 24px;
+  height: 58px;
+  text-align: center;
+  letter-spacing: 0px;
+  box-shadow: 0 8px 20px rgba(159,31,246,0.18);
+}
+
+.hs-form .hs-button:hover {
+  transform: translateY(-1px);
+  opacity: 0.98;
+}
+
+/* Force the demo header text to exact Figma specs */
+#demo h2 {
+  font-family: var(--font-manrope);
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 43.712px;
+  color: var(--color-navy);
+  margin-top: 8px;
+}
+#demo p {
+  font-family: var(--font-manrope);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19.124px;
+  color: var(--color-muted);
+  margin-top: 8px;
+}
+/* Form disclaimer / small muted text */
+.hs-form .form-disclaimer,
+.demo-card .form-disclaimer {
+  color: var(--color-form-disclaimer);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+/* Responsive demo card layout refinements (match Figma across breakpoints) */
+.demo-card {
+  max-width: 581px;
+  margin: 0 auto;
+  padding: 18px;
+}
+@media (min-width: 640px) {
+  .demo-card {
+    padding: 24px;
+    border-radius: 28px;
+  }
+}
+@media (min-width: 1024px) {
+  .demo-card {
+    padding: 30px 40px;
+  }
+}
+
+/* Align the inner white form panel to match Figma */
+.demo-card .hs-form-html {
+  border-radius: 16px;
+  padding: 12px;
+  background: #ffffff; /* inner form panel is white in the Figma artboard */
+  box-shadow: 0 8px 18px rgba(15,26,51,0.05);
+}
+@media (min-width: 640px) {
+  .demo-card .hs-form-html { padding: 16px; }
+}
+
+/* Make inputs full width on mobile, two columns on larger */
+.hs-form { gap: 12px; }
+@media (min-width: 640px) {
+  .hs-form { grid-template-columns: repeat(2, minmax(0,1fr)); gap: 14px 18px; }
+}
+
+/* Inputs & placeholders */
+.hs-form input, .hs-form textarea, .hs-form select { font-size: 14px; }
+
+/* Force HubSpot form elements to use Manrope and match Figma typographic scale */
+.demo-card .hs-form-html,
+.demo-card .hs-form-html input,
+.demo-card .hs-form-html textarea,
+.demo-card .hs-form-html select,
+.demo-card .hs-form-html label,
+.demo-card .hs-form-html .hs-button {
+  font-family: var(--font-manrope);
+}
+
+.demo-card .hs-form-html input,
+.demo-card .hs-form-html textarea,
+.demo-card .hs-form-html select {
+  border-color: rgba(226,232,240,0.9) !important;
+  background: #ffffff !important;
+  box-shadow: none !important;
+  font-family: var(--font-manrope) !important;
+  font-size: 14px !important;
+  padding: 12px 14px !important;
+}
+
+/* CTA responsiveness */
+.hs-form .hs-button { height: 58px; font-size: 18.5px; }
+@media (min-width: 640px) { .hs-form .hs-button { height: 56px; } }
+
+/* Header phone pill exact adjustments */
+.header-phone {
+  background: var(--color-phone-bg);
+  border-radius: 10px;
+  padding: 6px 10px;
+  display: inline-flex;
+  align-items: center;
+}
+@media (min-width: 640px) {
+  .header-phone { padding: 8px 12px; border-radius: 12px; }
 }
