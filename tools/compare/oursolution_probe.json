@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Unified Dashboard",
+    "background": "rgba(0, 0, 0, 0)",
+    "iconSrc": "/_next/image?url=%2Fimages%2Fdashboard-4e6985.png&w=3840&q=75",
+    "iconBg": "rgb(255, 255, 255)"
+  },
+  {
+    "title": "Unified Dashboard",
+    "background": "rgba(0, 0, 0, 0)",
+    "iconSrc": "/_next/image?url=%2Fimages%2Fdashboard-4e6985.png&w=3840&q=75",
+    "iconBg": "rgb(255, 255, 255)"
+  },
+  {
+    "title": "Unified Dashboard",
+    "background": "rgba(0, 0, 0, 0)",
+    "iconSrc": "/_next/image?url=%2Fimages%2Fdashboard-4e6985.png&w=3840&q=75",
+    "iconBg": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "title": "Unified Dashboard",
+    "background": "rgba(0, 0, 0, 0)",
+    "iconSrc": null,
+    "iconBg": null
+  },
+  {
+    "title": "Tech Integrations",
+    "background": "rgba(0, 0, 0, 0)",
+    "iconSrc": "/images/2in1.svg",
+    "iconBg": "rgb(255, 255, 255)"
+  },
+  {
+    "title": "Tech Integrations",
+    "background": "rgb(245, 233, 254)",
+    "iconSrc": "/images/2in1.svg",
+    "iconBg": "rgb(255, 255, 255)"
+  },
+  {
+    "title": "Outcome Reports",
+    "background": "rgb(237, 245, 254)",
+    "iconSrc": "inline-svg",
+    "iconBg": "rgb(255, 255, 255)"
+  },
+  {
+    "title": "Audit-Ready Compliance",
+    "background": "rgb(237, 245, 254)",
+    "iconSrc": "inline-svg",
+    "iconBg": "rgb(255, 255, 255)"
+  },
+  {
+    "title": "Risk Monitoring",
+    "background": "rgb(245, 233, 254)",
+    "iconSrc": "/images/2in1.svg",
+    "iconBg": "rgb(255, 255, 255)"
+  }
+]

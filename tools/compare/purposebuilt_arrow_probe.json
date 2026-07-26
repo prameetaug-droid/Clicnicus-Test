@@ -1,0 +1,22 @@
+{
+  "text": "→",
+  "computed": {
+    "position": "absolute",
+    "width": "25px",
+    "height": "33px",
+    "left": "262px",
+    "top": "80px",
+    "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+    "fontStyle": "normal",
+    "fontWeight": "400",
+    "fontSize": "24px",
+    "lineHeight": "33px",
+    "color": "rgb(159, 31, 246)",
+    "rect": {
+      "x": 539.5,
+      "y": 1667.390625,
+      "width": 25,
+      "height": 33
+    }
+  }
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "article": {
+      "borderWidth": "0px",
+      "borderStyle": "solid",
+      "borderColor": "rgb(15, 44, 83)",
+      "background": "rgba(228, 234, 242, 0.56)",
+      "borderRadius": "20px",
+      "rect": {
+        "x": 277.5,
+        "y": 1587.390625,
+        "width": 811,
+        "height": 155
+      }
+    },
+    "heading": {
+      "text": "Hospital Readmissions",
+      "color": "rgb(91, 115, 146)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "600",
+      "lineHeight": "16px"
+    }
+  },
+  {
+    "article": {
+      "borderWidth": "0px",
+      "borderStyle": "solid",
+      "borderColor": "rgb(15, 44, 83)",
+      "background": "rgba(228, 234, 242, 0.56)",
+      "borderRadius": "20px",
+      "rect": {
+        "x": 277.5,
+        "y": 1768.390625,
+        "width": 811,
+        "height": 155
+      }
+    },
+    "heading": {
+      "text": "Administrative Burden, weekly",
+      "color": "rgb(91, 115, 146)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "600",
+      "lineHeight": "16px"
+    }
+  },
+  {
+    "article": {
+      "borderWidth": "0px",
+      "borderStyle": "solid",
+      "borderColor": "rgb(15, 44, 83)",
+      "background": "rgba(228, 234, 242, 0.56)",
+      "borderRadius": "20px",
+      "rect": {
+        "x": 277.5,
+        "y": 1949.390625,
+        "width": 811,
+        "height": 155
+      }
+    },
+    "heading": {
+      "text": "Patient Non-Compliance",
+      "color": "rgb(91, 115, 146)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "600",
+      "lineHeight": "16px"
+    }
+  },
+  {
+    "article": {
+      "borderWidth": "0px",
+      "borderStyle": "solid",
+      "borderColor": "rgb(15, 44, 83)",
+      "background": "rgba(228, 234, 242, 0.56)",
+      "borderRadius": "20px",
+      "rect": {
+        "x": 277.5,
+        "y": 2130.390625,
+        "width": 811,
+        "height": 155
+      }
+    },
+    "heading": null
+  }
+]

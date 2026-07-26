@@ -49,7 +49,7 @@ export default function Steps() {
                 key={step.number}
                 className="flex flex-col items-center text-center"
               >
-                <div className="relative z-10 flex h-[48px] w-[48px] items-center justify-center rounded-[12px] bg-navy text-base font-extrabold text-white sm:h-[52px] sm:w-[52px] sm:rounded-[14px] sm:text-[17px]">
+                <div className="relative z-10 flex h-[48px] w-[48px] items-center justify-center rounded-[12px] bg-[#0F2C53] text-base font-extrabold text-white sm:h-[52px] sm:w-[52px] sm:rounded-[14px] sm:text-[17px]">
                   {step.number}
                 </div>
                 <h3 className="mt-4 text-[15px] font-bold text-navy sm:mt-5 sm:text-[15.5px]">

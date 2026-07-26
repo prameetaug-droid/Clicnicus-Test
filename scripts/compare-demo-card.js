@@ -4,7 +4,7 @@ const https = require('https');
 const { PNG } = require('pngjs');
 const pixelmatch = require('pixelmatch').default || require('pixelmatch');
 
-const FIGMA_TOKEN = process.env.FIGMA_TOKEN || 'figd_jmYmz93a2tj6aEfGe6kq5SwOgR0jJruDA3AfXvj5';
+const FIGMA_TOKEN = process.env.FIGMA_TOKEN;
 const FILE_KEY = process.env.FILE_KEY || 'PzP0rTk0bxDo9V59y9FbEW';
 // node id for demo card/group (from earlier inspection)
 const FIGMA_NODE = '10:484';
@@ -23,6 +23,10 @@ function download(url, dest) {
 }
 
 async function fetchFigmaImage() {
+  if (!FIGMA_TOKEN) {
+    throw new Error('FIGMA_TOKEN environment variable is missing. Please set FIGMA_TOKEN before running.');
+  }
+
   const dest = './screenshots/figma-demo.png';
   if (fs.existsSync(dest)) {
     console.log('Using existing Figma export at', dest);

@@ -4,7 +4,10 @@ import { SectionContainer } from "./SectionContainer";
 export default function Footer() {
   return (
     <div className="relative isolate overflow-visible">
-      <footer className="relative z-0 mt-12 overflow-visible bg-navy md:mt-16 lg:mt-[80px]">
+      <footer className="relative z-0 mt-12 overflow-visible md:mt-16 lg:mt-[80px]" style={{ backgroundColor: "#0F2C53" }}>
+        {/* Blue banner backdrop */}
+        <div className="pointer-events-none absolute left-1/2 top-0 z-0 h-[547px] w-[1440px] -translate-x-1/2" style={{ backgroundColor: "#0F2C53" }} />
+        
         <div className="pointer-events-none absolute right-[30px] top-[clamp(-140px,-9.7vw,-100px)] z-10 hidden aspect-[480/620] w-[clamp(400px,37.5vw,540px)] lg:block xl:right-[max(30px,calc((100vw-1440px)/2+30px))]">
           <Image
             src="/images/footer-doctor-4ebf4c.png"
@@ -39,7 +42,7 @@ export default function Footer() {
         <div className="mt-10 flex flex-col gap-8 sm:mt-12 lg:mt-[34px] lg:flex-row lg:items-start lg:gap-[50px]">
           <div className="flex flex-col gap-8 sm:flex-row sm:flex-wrap sm:gap-12 md:gap-16 lg:flex-1 lg:gap-[px] lg:pr-10">
             <div>
-              <p className="text-xs font-medium text-footer-text">Follow us on</p>
+              <p className="text-xs font-medium text-footer-text" style={{ color: "#A6B8D1" }}>Follow us on</p>
               <Image
                 src="/images/social-icons.svg"
                 alt="Social media links"
@@ -49,7 +52,7 @@ export default function Footer() {
               />
             </div>
             <div>
-              <p className="text-[11px] font-bold uppercase tracking-[0.1091em] text-footer-text">
+              <p className="text-[11px] font-bold uppercase tracking-[0.1091em] text-footer-text" style={{ color: "#A6B8D1" }}>
                 CONTACT
               </p>
               <a
@@ -73,15 +76,16 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 h-px bg-footer-line sm:mt-16 lg:mt-[12px]" />
+        <div className="mt-12 sm:mt-16 lg:mt-[12px]" style={{ height: "1px", backgroundColor: "#334766" }} />
 
         <div className="mt-5 flex flex-col gap-3 sm:mt-[22px] sm:flex-row sm:items-center sm:justify-between sm:gap-4">
-          <p className="text-[11px] font-medium text-footer-muted sm:text-[11.5px]">
+          <p className="text-[11px] font-medium sm:text-[11.5px]" style={{ color: "#99ABC7" }}>
             © 2026 Sciometrix. All rights reserved.
           </p>
           <a
             href="#"
-            className="text-[11px] font-medium text-footer-muted hover:text-white sm:text-[11.5px]"
+            className="text-[11px] font-medium hover:text-white sm:text-[11.5px]"
+            style={{ color: "#99ABC7" }}
           >
             Privacy Policy
           </a>

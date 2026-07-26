@@ -4,14 +4,20 @@ export default function HeroImage() {
   return (
     <section className="relative mt-8 overflow-hidden md:mt-11">
       <div className="relative w-full">
-        <div className="relative h-[220px] w-screen overflow-hidden rounded-2xl sm:h-[300px] md:h-[360px] md:rounded-none lg:h-[431px]">
-          <Image
-            src="/images/hero-doctor-79299a.png"
-            alt="Experienced doctor using smartphone"
-            fill
-            className="object-cover object-center hero-image-grayscale"
-            priority
-          />
+        <div className="relative h-[220px] w-full overflow-hidden rounded-2xl sm:h-[300px] md:h-[360px] md:rounded-none lg:h-[431px]">
+          <div className="absolute inset-0 overflow-hidden">
+            <div className="absolute left-[-4%] top-[-4%] w-[108%] h-[108%] scale-[0.92] origin-center">
+              <Image
+                src="/images/hero-doctor-79299a.png"
+                alt="Experienced doctor using smartphone"
+                fill
+                sizes="100vw"
+                className="object-cover hero-image-grayscale"
+                style={{ objectPosition: '40% 35%' }}
+                priority
+              />
+            </div>
+          </div>
 
           {/* Live Patient Snapshot widget */}
           <div
@@ -81,8 +87,7 @@ export default function HeroImage() {
 
           {/* Patients at Risk widget */}
           <div
-           className="absolute bottom-[6%] right-[4%] hidden w-[38%] max-w-[183px] rounded-[14.6px] border border-white/12 p-2.5 lg:block lg:bottom-auto lg:right-[461px] lg:top-[300px] lg:p-[14.6px]"
-           style={{ background: "rgba(28, 31, 36, 0.41)" }}
+           className="absolute hidden w-[183px] h-[131px] rounded-[14.5772px] border-[0.607384px] border-white/12 bg-[rgba(28,31,36,0.41)] box-border p-[14.6px] shadow-2xl z-20 lg:block lg:left-[796px] lg:top-[300px]"
           >
            <p className="text-[6.1px] font-bold uppercase tracking-[0.12em] text-[#B2B2B8]">
              ALERT

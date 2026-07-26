@@ -96,17 +96,17 @@ export default function OurSolution() {
           description="Clinicus replaces your fragmented mix of tools with a single connected system, purpose-built for CCM, RPM, TCM, and every care management program you run."
         />
 
-        <div className="mt-10 flex flex-col gap-8 lg:mt-[64px] lg:flex-row lg:gap-[31px]">
+        <div className="mt-10 flex flex-col gap-4 sm:gap-6 md:gap-8 lg:mt-[64px] lg:flex-row lg:gap-[31px]">
           <div className="w-full lg:max-w-[511px] lg:shrink-0">
-            <div className="relative h-[240px] w-full overflow-hidden rounded-t-[16px] sm:h-[320px] md:h-[380px] lg:h-[419px] lg:rounded-t-[20px]">
+            <div className="relative w-full overflow-hidden rounded-t-[16px] h-[200px] sm:h-[280px] md:h-[340px] lg:h-[419px] lg:rounded-t-[20px] bg-purple-light">
               <Image
                 src="/images/dashboard-4e6985.png"
                 alt="Clinicus unified dashboard"
                 fill
-                className="object-cover object-top"
+                className="object-contain object-center"
               />
             </div>
-            <div className="-mt-10 rounded-[16px] bg-purple-light px-6 pb-7 pt-14 sm:-mt-12 sm:px-8 sm:pb-9 sm:pt-16 lg:-mt-16 lg:rounded-[20px] lg:pt-[72px]">
+            <div className="-mt-8 rounded-[16px] bg-purple-light px-4 pb-5 pt-10 sm:-mt-10 sm:px-6 sm:pb-6 sm:pt-12 md:-mt-12 md:px-7 md:pb-7 md:pt-14 lg:-mt-16 lg:rounded-[20px] lg:px-6 lg:pt-[72px] lg:pb-7">
               <h3 className="text-xl font-bold text-navy sm:text-[22px]">
                 Unified Dashboard
               </h3>

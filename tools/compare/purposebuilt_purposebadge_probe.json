@@ -1,0 +1,23 @@
+{
+  "text": "CLINICUS SOLUTION",
+  "computed": {
+    "position": "absolute",
+    "width": "116px",
+    "height": "24px",
+    "left": "378px",
+    "top": "24px",
+    "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial",
+    "fontStyle": "normal",
+    "fontWeight": "700",
+    "fontSize": "9px",
+    "lineHeight": "13.5px",
+    "letterSpacing": "0.3996px",
+    "color": "rgb(159, 31, 246)",
+    "rect": {
+      "x": 655.5,
+      "y": 1611.390625,
+      "width": 116,
+      "height": 24
+    }
+  }
+}

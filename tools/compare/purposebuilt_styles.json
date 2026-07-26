@@ -1,0 +1,657 @@
+{
+  "challengeBadges": [
+    {
+      "role": "challenge-badge",
+      "text": "CHALLENGE",
+      "color": "rgb(224, 73, 45)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial",
+      "fontSize": "9px",
+      "fontWeight": "700",
+      "lineHeight": "13.5px",
+      "rect": {
+        "x": 298.5,
+        "y": 1608.390625,
+        "width": 80,
+        "height": 26
+      }
+    },
+    {
+      "role": "challenge-badge",
+      "text": "CHALLENGE",
+      "color": "rgb(224, 73, 45)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial",
+      "fontSize": "9px",
+      "fontWeight": "700",
+      "lineHeight": "13.5px",
+      "rect": {
+        "x": 298.5,
+        "y": 1855.453125,
+        "width": 80,
+        "height": 26
+      }
+    },
+    {
+      "role": "challenge-badge",
+      "text": "CHALLENGE",
+      "color": "rgb(224, 73, 45)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial",
+      "fontSize": "9px",
+      "fontWeight": "700",
+      "lineHeight": "13.5px",
+      "rect": {
+        "x": 298.5,
+        "y": 2102.515625,
+        "width": 80,
+        "height": 26
+      }
+    },
+    {
+      "role": "challenge-badge",
+      "text": "CHALLENGE",
+      "color": "rgb(224, 73, 45)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial",
+      "fontSize": "9px",
+      "fontWeight": "700",
+      "lineHeight": "13.5px",
+      "rect": {
+        "x": 298.5,
+        "y": 2333.921875,
+        "width": 80,
+        "height": 26
+      }
+    }
+  ],
+  "purposeBadges": [
+    {
+      "role": "purpose-badge",
+      "text": "CLINICUS SOLUTION",
+      "color": "rgb(159, 31, 246)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial",
+      "fontSize": "9px",
+      "fontWeight": "700",
+      "lineHeight": "13.5px",
+      "rect": {
+        "x": 717.359375,
+        "y": 1622.140625,
+        "width": 119.46875,
+        "height": 26
+      }
+    },
+    {
+      "role": "purpose-badge",
+      "text": "CLINICUS SOLUTION",
+      "color": "rgb(159, 31, 246)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial",
+      "fontSize": "9px",
+      "fontWeight": "700",
+      "lineHeight": "13.5px",
+      "rect": {
+        "x": 717.359375,
+        "y": 1869.203125,
+        "width": 119.46875,
+        "height": 26
+      }
+    },
+    {
+      "role": "purpose-badge",
+      "text": "CLINICUS SOLUTION",
+      "color": "rgb(159, 31, 246)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial",
+      "fontSize": "9px",
+      "fontWeight": "700",
+      "lineHeight": "13.5px",
+      "rect": {
+        "x": 717.359375,
+        "y": 2116.265625,
+        "width": 119.46875,
+        "height": 26
+      }
+    },
+    {
+      "role": "purpose-badge",
+      "text": "CLINICUS SOLUTION",
+      "color": "rgb(159, 31, 246)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial",
+      "fontSize": "9px",
+      "fontWeight": "700",
+      "lineHeight": "13.5px",
+      "rect": {
+        "x": 717.359375,
+        "y": 2347.671875,
+        "width": 119.46875,
+        "height": 26
+      }
+    }
+  ],
+  "stats": [
+    {
+      "role": "stat",
+      "text": "PURPOSE-BUILT SOLUTION\n\nStill Managing the Problem Or Solving It with Clinicus?\n",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "rect": {
+        "x": 0,
+        "y": 1415.890625,
+        "width": 1366,
+        "height": 1064.4375
+      }
+    },
+    {
+      "role": "stat",
+      "text": "PURPOSE-BUILT SOLUTION\n\nStill Managing the Problem Or Solving It with Clinicus?\n",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "rect": {
+        "x": 120,
+        "y": 1415.890625,
+        "width": 1126,
+        "height": 1064.4375
+      }
+    },
+    {
+      "role": "stat",
+      "text": "CHALLENGE\n\n$41B\n\nHospital Readmissions\n\n→\nCLINICUS SOLUTION\n\nReducing Hospital R",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "rect": {
+        "x": 277.5,
+        "y": 1587.390625,
+        "width": 811,
+        "height": 892.9375
+      }
+    },
+    {
+      "role": "stat",
+      "text": "CHALLENGE\n\n$41B\n\nHospital Readmissions\n\n→\nCLINICUS SOLUTION\n\nReducing Hospital R",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "rect": {
+        "x": 277.5,
+        "y": 1587.390625,
+        "width": 811,
+        "height": 221.0625
+      }
+    },
+    {
+      "role": "stat",
+      "text": "CHALLENGE\n\n$41B\n\nHospital Readmissions\n\n→\nCLINICUS SOLUTION\n\nReducing Hospital R",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "rect": {
+        "x": 310.5,
+        "y": 1620.390625,
+        "width": 745,
+        "height": 155.0625
+      }
+    },
+    {
+      "role": "stat",
+      "text": "CHALLENGE\n\n$41B\n\nHospital Readmissions",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "rect": {
+        "x": 310.5,
+        "y": 1620.390625,
+        "width": 338.140625,
+        "height": 95
+      }
+    },
+    {
+      "role": "stat",
+      "text": "$41B",
+      "color": "rgb(224, 73, 45)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "42px",
+      "fontWeight": "500",
+      "lineHeight": "63px",
+      "rect": {
+        "x": 310.5,
+        "y": 1632.390625,
+        "width": 338.140625,
+        "height": 63
+      }
+    },
+    {
+      "role": "stat",
+      "text": "CHALLENGE\n\n8 Hrs\n\nAdministrative Burden, weekly\n\n→\nCLINICUS SOLUTION\n\n40% Faster",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "rect": {
+        "x": 277.5,
+        "y": 1834.453125,
+        "width": 811,
+        "height": 221.0625
+      }
+    },
+    {
+      "role": "stat",
+      "text": "CHALLENGE\n\n8 Hrs\n\nAdministrative Burden, weekly\n\n→\nCLINICUS SOLUTION\n\n40% Faster",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "rect": {
+        "x": 310.5,
+        "y": 1867.453125,
+        "width": 745,
+        "height": 155.0625
+      }
+    },
+    {
+      "role": "stat",
+      "text": "CHALLENGE\n\n8 Hrs\n\nAdministrative Burden, weekly",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "rect": {
+        "x": 310.5,
+        "y": 1867.453125,
+        "width": 338.140625,
+        "height": 95
+      }
+    }
+  ],
+  "solutionHeadings": [
+    {
+      "role": "heading",
+      "text": "PURPOSE-BUILT SOLUTION",
+      "color": "rgb(159, 31, 246)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "11px",
+      "fontWeight": "700",
+      "lineHeight": "16.5px",
+      "rect": {
+        "x": 597.375,
+        "y": 1415.890625,
+        "width": 171.234375,
+        "height": 16.5
+      }
+    },
+    {
+      "role": "heading",
+      "text": "Still Managing the Problem Or Solving It with Clinicus?",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "40px",
+      "fontWeight": "300",
+      "lineHeight": "50px",
+      "rect": {
+        "x": 203.015625,
+        "y": 1447.390625,
+        "width": 959.953125,
+        "height": 50
+      }
+    },
+    {
+      "role": "heading",
+      "text": "These aren't just any numbers, they're what fragmented tools and manual processes cost practices and country every day. ",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "lineHeight": "22px",
+      "rect": {
+        "x": 362.984375,
+        "y": 1512.390625,
+        "width": 640,
+        "height": 44
+      }
+    },
+    {
+      "role": "heading",
+      "text": "Hospital Readmissions",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "600",
+      "lineHeight": "16px",
+      "rect": {
+        "x": 310.5,
+        "y": 1699.390625,
+        "width": 338.140625,
+        "height": 16
+      }
+    },
+    {
+      "role": "heading",
+      "text": "Reducing Hospital Readmissions",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "26px",
+      "fontWeight": "400",
+      "lineHeight": "34.6667px",
+      "rect": {
+        "x": 717.359375,
+        "y": 1660.140625,
+        "width": 338.140625,
+        "height": 69.3125
+      }
+    },
+    {
+      "role": "heading",
+      "text": "Real-time monitoring and automated alerts enable timely interventions before issues escalate.",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "lineHeight": "19px",
+      "rect": {
+        "x": 717.359375,
+        "y": 1737.453125,
+        "width": 338.140625,
+        "height": 38
+      }
+    },
+    {
+      "role": "heading",
+      "text": "Administrative Burden, weekly",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "600",
+      "lineHeight": "16px",
+      "rect": {
+        "x": 310.5,
+        "y": 1946.453125,
+        "width": 338.140625,
+        "height": 16
+      }
+    },
+    {
+      "role": "heading",
+      "text": "40% Faster Task Completion",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "26px",
+      "fontWeight": "400",
+      "lineHeight": "34.6667px",
+      "rect": {
+        "x": 717.359375,
+        "y": 1907.203125,
+        "width": 338.140625,
+        "height": 69.3125
+      }
+    },
+    {
+      "role": "heading",
+      "text": "Automated workflows and documentation free your team from admin workloads.",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "lineHeight": "19px",
+      "rect": {
+        "x": 717.359375,
+        "y": 1984.515625,
+        "width": 338.140625,
+        "height": 38
+      }
+    },
+    {
+      "role": "heading",
+      "text": "Patient Non-Compliance",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "600",
+      "lineHeight": "16px",
+      "rect": {
+        "x": 310.5,
+        "y": 2193.515625,
+        "width": 338.140625,
+        "height": 16
+      }
+    },
+    {
+      "role": "heading",
+      "text": "~85% Care Gaps Reduced",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "26px",
+      "fontWeight": "400",
+      "lineHeight": "34.6667px",
+      "rect": {
+        "x": 717.359375,
+        "y": 2154.265625,
+        "width": 338.140625,
+        "height": 34.65625
+      }
+    },
+    {
+      "role": "heading",
+      "text": "Automated outreach, 24/7 RN support, reminders, and monitoring tools keep patients active and adherent between visits.",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "lineHeight": "19px",
+      "rect": {
+        "x": 717.359375,
+        "y": 2196.921875,
+        "width": 338.140625,
+        "height": 57
+      }
+    },
+    {
+      "role": "heading",
+      "text": "Claim Loss, yearly",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "600",
+      "lineHeight": "16px",
+      "rect": {
+        "x": 310.5,
+        "y": 2424.921875,
+        "width": 338.140625,
+        "height": 16
+      }
+    },
+    {
+      "role": "heading",
+      "text": "97% Billing Success",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "26px",
+      "fontWeight": "400",
+      "lineHeight": "34.6667px",
+      "rect": {
+        "x": 717.359375,
+        "y": 2385.671875,
+        "width": 338.140625,
+        "height": 34.65625
+      }
+    },
+    {
+      "role": "heading",
+      "text": "Built-in time tracking and audit-ready documentation.",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "lineHeight": "19px",
+      "rect": {
+        "x": 717.359375,
+        "y": 2428.328125,
+        "width": 338.140625,
+        "height": 19
+      }
+    }
+  ],
+  "descriptions": [
+    {
+      "role": "description",
+      "text": "PURPOSE-BUILT SOLUTION",
+      "color": "rgb(159, 31, 246)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "11px",
+      "fontWeight": "700",
+      "lineHeight": "16.5px",
+      "rect": {
+        "x": 597.375,
+        "y": 1415.890625,
+        "width": 171.234375,
+        "height": 16.5
+      }
+    },
+    {
+      "role": "description",
+      "text": "These aren't just any numbers, they're what fragmented tools and manual processes cost practices and country every day. Here's how Clinicus fixes each one of th",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "lineHeight": "22px",
+      "rect": {
+        "x": 362.984375,
+        "y": 1512.390625,
+        "width": 640,
+        "height": 44
+      }
+    },
+    {
+      "role": "description",
+      "text": "Hospital Readmissions",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "600",
+      "lineHeight": "16px",
+      "rect": {
+        "x": 310.5,
+        "y": 1699.390625,
+        "width": 338.140625,
+        "height": 16
+      }
+    },
+    {
+      "role": "description",
+      "text": "Reducing Hospital Readmissions",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "26px",
+      "fontWeight": "400",
+      "lineHeight": "34.6667px",
+      "rect": {
+        "x": 717.359375,
+        "y": 1660.140625,
+        "width": 338.140625,
+        "height": 69.3125
+      }
+    },
+    {
+      "role": "description",
+      "text": "Real-time monitoring and automated alerts enable timely interventions before issues escalate.",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "lineHeight": "19px",
+      "rect": {
+        "x": 717.359375,
+        "y": 1737.453125,
+        "width": 338.140625,
+        "height": 38
+      }
+    },
+    {
+      "role": "description",
+      "text": "Administrative Burden, weekly",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "600",
+      "lineHeight": "16px",
+      "rect": {
+        "x": 310.5,
+        "y": 1946.453125,
+        "width": 338.140625,
+        "height": 16
+      }
+    },
+    {
+      "role": "description",
+      "text": "40% Faster Task Completion",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "26px",
+      "fontWeight": "400",
+      "lineHeight": "34.6667px",
+      "rect": {
+        "x": 717.359375,
+        "y": 1907.203125,
+        "width": 338.140625,
+        "height": 69.3125
+      }
+    },
+    {
+      "role": "description",
+      "text": "Automated workflows and documentation free your team from admin workloads.",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "lineHeight": "19px",
+      "rect": {
+        "x": 717.359375,
+        "y": 1984.515625,
+        "width": 338.140625,
+        "height": 38
+      }
+    },
+    {
+      "role": "description",
+      "text": "Patient Non-Compliance",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "600",
+      "lineHeight": "16px",
+      "rect": {
+        "x": 310.5,
+        "y": 2193.515625,
+        "width": 338.140625,
+        "height": 16
+      }
+    },
+    {
+      "role": "description",
+      "text": "~85% Care Gaps Reduced",
+      "color": "rgb(15, 44, 83)",
+      "fontFamily": "Manrope, system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, system-ui, sans-serif",
+      "fontSize": "26px",
+      "fontWeight": "400",
+      "lineHeight": "34.6667px",
+      "rect": {
+        "x": 717.359375,
+        "y": 2154.265625,
+        "width": 338.140625,
+        "height": 34.65625
+      }
+    }
+  ]
+}

@@ -10,18 +10,21 @@ const testimonials = [
       "I never knew how much support I needed until I connected with Clinicus. Their team truly cares about my well-being.",
     initial: "J",
     name: "Jonathan, 64",
+    avatar: "/images/J.svg",
   },
   {
     quote:
       "I never thought drinking pickle juice could be one of the reasons for my high blood pressure. The team educated me. They truly care!",
     initial: "D",
     name: "David, 82",
+    avatar: "/images/D.svg",
   },
   {
     quote:
       "I am incredibly grateful for the support from Clinicus! Their coaching helped me lower my blood pressure, giving me peace of mind.",
     initial: "M",
     name: "Michael, 70",
+    avatar: "/images/M.svg",
   },
 ];
 
@@ -45,10 +48,14 @@ export default function Testimonials() {
               <p className="text-[12px] font-medium leading-[18px] text-navy sm:text-[12.5px]">
                 &ldquo;{item.quote}&rdquo;
               </p>
-              <div className="mt-4 flex items-center gap-4 sm:mt-[14px]">
-                <div className="flex h-9 w-9 items-center justify-center rounded-full bg-purple-light text-[13px] font-bold text-purple">
-                  {item.initial}
-                </div>
+              <div className="flex items-center gap-4 sm:mt-[14px]">
+                <img
+                  src={item.avatar}
+                  alt={`${item.initial} avatar`}
+                  width={36}
+                  height={36}
+                  className="flex-shrink-0"
+                />
                 <span className="text-[12.5px] font-bold text-navy">
                   {item.name}
                 </span>
