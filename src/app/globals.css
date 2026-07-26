@@ -255,6 +255,31 @@ body {
   color: var(--color-muted);
   margin-top: 8px;
 }
+
+/* Footer background rectangle to match Figma artboard */
+/* Adds a centered 1440x547px navy rectangle behind footer content */
+footer.bg-navy {
+  position: relative;
+  overflow: visible;
+  min-height: 547px; /* ensures space for the rectangle */
+}
+footer.bg-navy::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1440px;
+  height: 547px;
+  top: 0;
+  background: var(--color-navy);
+  z-index: 0; /* sits behind footer content */
+}
+/* Ensure the main footer container content stacks above the pseudo element */
+footer.bg-navy > .z-10, footer.bg-navy .z-10 {
+  position: relative;
+  z-index: 10;
+}
+
 /* Form disclaimer / small muted text */
 .hs-form .form-disclaimer,
 .demo-card .form-disclaimer {
