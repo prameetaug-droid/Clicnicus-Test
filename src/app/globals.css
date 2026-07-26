@@ -270,9 +270,21 @@ footer.bg-navy::before {
   transform: translateX(-50%);
   width: 1440px;
   height: 547px;
-  top: 0;
+  /* anchor to bottom of footer so it sits behind content reliably across page heights */
+  bottom: 0;
+  top: auto;
   background: var(--color-navy);
   z-index: 0; /* sits behind footer content */
+}
+
+/* Make the footer rectangle adapt on small screens: full-width and anchored to bottom */
+@media (max-width: 1440px) {
+  footer.bg-navy::before {
+    left: 0;
+    transform: none;
+    width: 100%;
+    border-radius: 0; /* full-width rectangle */
+  }
 }
 /* Ensure the main footer container content stacks above the pseudo element */
 footer.bg-navy > .z-10, footer.bg-navy .z-10 {
