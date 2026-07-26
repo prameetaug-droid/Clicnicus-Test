@@ -62,7 +62,7 @@ export default function PurposeBuilt() {
                     <p className="mt-3 text-[32px] font-medium text-challenge sm:text-[38px] md:text-[42px]">
                       {item.stat}
                     </p>
-                    <p className="mt-1 text-xs font-semibold leading-4 text-muted sm:text-[12px]">
+                    <p className="mt-1 text-[12px] font-semibold leading-[16px] text-[#5B7392] sm:text-[12px]" style={{ fontFamily: 'Manrope, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif' }}>
                       {item.challenge}
                     </p>
                   </div>
