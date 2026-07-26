@@ -378,4 +378,6 @@ body {
 }
 
 /* Ensure the article is the containing block for the absolute badge */
+.text-challenge { color: var(--color-challenge) !important; }
+
 article.relative { position: relative; }
