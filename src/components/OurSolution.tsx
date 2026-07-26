@@ -63,6 +63,14 @@ function FeatureIcon({ type }: { type: string }) {
       </svg>
     );
   }
+  if (type === "link") {
+    // use 2in1.svg for link-type features (Tech Integrations, Risk Monitoring)
+    return (
+      // Use a simple img tag so missing asset doesn't break SSR; replace with Image if the asset exists
+      <img src="/images/2in1.svg" alt="link icon" width={24} height={24} />
+    );
+  }
+
   return (
     <svg width="20" height="10" viewBox="0 0 20 10" fill="none" aria-hidden>
       <path
