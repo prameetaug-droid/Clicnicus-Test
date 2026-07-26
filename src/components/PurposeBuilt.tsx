@@ -52,14 +52,14 @@ export default function PurposeBuilt() {
             {challenges.map((item) => (
               <article
                 key={item.stat}
-                className="relative rounded-[16px] border-0 bg-[rgba(228,234,242,0.56)] p-5 sm:rounded-[20px] sm:p-6 md:p-8" style={{ boxSizing: 'border-box' }}
+                className="relative rounded-[16px] border-0 bg-[rgba(228,234,242,0.56)] w-[811px] h-[155px] p-4 sm:rounded-[20px] sm:p-4 md:p-4 overflow-hidden" style={{ boxSizing: 'border-box' }}
               >
                 <div className="grid gap-6 md:grid-cols-[1fr_auto_1fr] md:items-start md:gap-4 lg:gap-6">
                   <div>
                     <span className="challenge-badge">
                       CHALLENGE
                     </span>
-                    <p className="mt-3 text-[32px] font-medium text-challenge sm:text-[38px] md:text-[42px]">
+                    <p className="mt-2 text-[20px] font-medium text-challenge sm:text-[22px] md:text-[24px]">
                       {item.stat}
                     </p>
                     <p className="mt-1 text-[12px] font-semibold leading-[16px] text-[#5B7392] sm:text-[12px]" style={{ fontFamily: 'Manrope, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif' }}>
@@ -75,10 +75,10 @@ export default function PurposeBuilt() {
                     <span className="purpose-badge">
                       CLINICUS SOLUTION
                     </span>
-                    <p className="mt-3 text-xl text-navy sm:text-2xl md:text-[26px]">
+                    <p className="mt-1 text-[14px] text-navy sm:text-[15px] md:text-[16px]">
                       {item.solution}
                     </p>
-                    <p className="mt-2 text-[13px] leading-[19px] text-muted">
+                    <p className="mt-1 text-[11px] leading-[14px] text-muted">
                       {item.description}
                     </p>
                   </div>
