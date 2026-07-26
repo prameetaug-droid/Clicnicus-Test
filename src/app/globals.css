@@ -255,62 +255,6 @@ body {
   color: var(--color-muted);
   margin-top: 8px;
 }
-
-/* Footer background rectangle to match Figma artboard */
-/* Adds a centered 1440x547px navy rectangle behind footer content */
-footer.bg-navy {
-  position: relative;
-  overflow: visible;
-  min-height: 547px; /* ensures space for the rectangle */
-}
-footer.bg-navy::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 1440px;
-  height: 547px;
-  /* anchor to bottom of footer so it sits behind content reliably across page heights */
-  bottom: 0;
-  top: auto;
-  background: var(--color-navy);
-  z-index: 0; /* sits behind footer content */
-}
-
-/* Make the footer rectangle adapt on small screens: full-width and anchored to bottom */
-@media (max-width: 1440px) {
-  footer.bg-navy::before {
-    left: 0;
-    transform: none;
-    width: 100%;
-    border-radius: 0; /* full-width rectangle */
-  }
-}
-/* Ensure the main footer container content stacks above the pseudo element */
-footer.bg-navy > .z-10, footer.bg-navy .z-10 {
-  position: relative;
-  z-index: 10;
-}
-
-/* Force primary footer text to pure white to match Figma */
-/* Targets any element inside footer using text-white and the main heading */
-footer.bg-navy h2,
-footer.bg-navy h2 span,
-footer.bg-navy [class*="text-white"] {
-  color: #FFFFFF !important;
-}
-
-/* Keep secondary footer text muted where appropriate */
-footer.bg-navy .text-footer-text,
-footer.bg-navy .text-footer-muted {
-  color: var(--color-footer-text) !important;
-}
-
-/* Optional: ensure copyright/footer small links stay subtle */
-footer.bg-navy .text-[11px] {
-  color: var(--color-footer-muted) !important;
-}
-
 /* Form disclaimer / small muted text */
 .hs-form .form-disclaimer,
 .demo-card .form-disclaimer {
@@ -393,3 +337,27 @@ footer.bg-navy .text-[11px] {
 @media (min-width: 640px) {
   .header-phone { padding: 8px 12px; border-radius: 12px; }
 }
+
+/* Challenge badge (used in PurposeBuilt) - exact rectangle per Figma */
+.challenge-badge {
+  position: absolute !important;
+  width: 80px !important;
+  height: 26px !important;
+  left: 0 !important;
+  top: 0 !important;
+  background: #FCECE9 !important; /* Figma pale challenge bg */
+  border-radius: 13px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0 12px !important;
+  font-weight: 700 !important;
+  font-size: 9px !important;
+  letter-spacing: 0.0444em !important;
+  text-transform: uppercase !important;
+  color: #E0492D !important;
+  font-family: var(--font-manrope) !important;
+}
+
+/* Ensure the article is the containing block for the absolute badge */
+article.relative { position: relative; }

@@ -52,11 +52,11 @@ export default function PurposeBuilt() {
             {challenges.map((item) => (
               <article
                 key={item.stat}
-                className="rounded-[16px] border border-border-light bg-[rgba(228,234,242,0.56)] p-5 sm:rounded-[20px] sm:p-6 md:p-8"
+                className="relative rounded-[16px] border border-border-light bg-[rgba(228,234,242,0.56)] p-5 sm:rounded-[20px] sm:p-6 md:p-8"
               >
                 <div className="grid gap-6 md:grid-cols-[1fr_auto_1fr] md:items-start md:gap-4 lg:gap-6">
                   <div>
-                    <span className="inline-flex h-[26px] items-center justify-center rounded-[13px] bg-challenge-bg px-3 text-[9px] font-bold uppercase tracking-[0.0444em] text-[#E0492D]">
+                    <span className="challenge-badge">
                       CHALLENGE
                     </span>
                     <p className="mt-3 text-[32px] font-medium text-challenge sm:text-[38px] md:text-[42px]">
