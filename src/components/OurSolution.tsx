@@ -99,7 +99,7 @@ export default function OurSolution() {
 
         <div className="mt-12 flex flex-col gap-4 sm:mt-14 sm:gap-6 md:mt-16 md:gap-8 lg:mt-[64px] lg:flex-row lg:gap-[48px]">
           <div className="relative w-full lg:max-w-[511px] lg:shrink-0">
-            <div className="absolute left-1/2 top-[120px] h-[150px] w-[320px] -translate-x-1/2 rounded-[20px] bg-[#3772B2] z-0 sm:left-[-5px] sm:top-[100px] sm:h-[295px] sm:w-[360px] sm:translate-x-0 md:left-[-5px] md:top-[140px] md:h-[335px] md:w-[430px] md:translate-x-0 lg:left-[-5px] lg:top-[80px] lg:h-[465px] lg:w-[490.56px] lg:translate-x-0" />
+            <div className="absolute left-1/2 top-[120px] h-[175px] w-[320px] -translate-x-1/2 rounded-[20px] bg-[#3772B2] z-0 sm:left-[-5px] sm:top-[100px] sm:h-[330px] sm:w-[360px] sm:translate-x-0 md:left-[-5px] md:top-[140px] md:h-[370px] md:w-[430px] md:translate-x-0 lg:left-[-5px] lg:top-[80px] lg:h-[500px] lg:w-[490.56px] lg:translate-x-0" />
             <div className="relative z-10 h-[220px] sm:h-[180px] md:h-[340px] lg:h-[460px] overflow-visible">
               <Image
                 src="/images/dashboard-4e6985.png"
