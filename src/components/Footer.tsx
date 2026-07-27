@@ -4,7 +4,7 @@ import { SectionContainer } from "./SectionContainer";
 export default function Footer() {
   return (
     <div className="relative isolate overflow-visible">
-      <footer className="relative z-0 mt-10 overflow-visible md:mt-10 lg:mt-[50px]" style={{ backgroundColor: "#0F2C53" }}>
+      <footer className="relative z-0 mt-12 overflow-visible md:mt-10 lg:mt-[0px]" style={{ backgroundColor: "#0F2C53" }}>
         {/* Blue banner backdrop */}
         <div className="pointer-events-none absolute left-1/2 top-0 z-0 h-[547px] w-[1440px] max-w-full -translate-x-1/2" style={{ backgroundColor: "#0F2C53" }} />
         
