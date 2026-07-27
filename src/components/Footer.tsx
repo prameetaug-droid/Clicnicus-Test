@@ -24,7 +24,7 @@ export default function Footer() {
           alt="Clinicus"
           width={265}
           height={80}
-          className="-mt-2 mb-8 h-auto w-[180px] sm:-mt-3 sm:mb-10 sm:w-[220px] lg:-mt-4 lg:mb-[42px] lg:w-[265px]"
+          className="-mt-6 mb-10 h-auto w-[180px] sm:-mt-6 sm:mb-10 sm:w-[220px] lg:-mt-6 lg:mb-[42px] lg:w-[265px]"
         />
 
         <h2 className="max-w-[650px] text-[32px] font-light leading-[1.15] text-white sm:text-[40px] md:text-[44px] lg:text-[48px] lg:leading-[1.09]">
@@ -76,7 +76,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-14 sm:mt-18 lg:mt-[24px]" style={{ height: "1px", backgroundColor: "#334766" }} />
+        <div className="mt-14 sm:mt-[18px] lg:mt-[18px]" style={{ height: "1px", backgroundColor: "#334766" }} />
 
         <div className="mt-5 flex flex-col gap-3 sm:mt-[22px] sm:flex-row sm:items-center sm:justify-between sm:gap-4">
           <p className="text-[11px] font-medium sm:text-[11.5px]" style={{ color: "#99ABC7" }}>
