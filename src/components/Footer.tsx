@@ -6,7 +6,7 @@ export default function Footer() {
     <div className="relative isolate overflow-visible">
       <footer className="relative z-0 mt-12 overflow-visible md:mt-16 lg:mt-[80px]" style={{ backgroundColor: "#0F2C53" }}>
         {/* Blue banner backdrop */}
-        <div className="pointer-events-none absolute left-1/2 top-0 z-0 h-[547px] w-[1440px] -translate-x-1/2" style={{ backgroundColor: "#0F2C53" }} />
+        <div className="pointer-events-none absolute left-1/2 top-0 z-0 h-[547px] w-[1440px] max-w-full -translate-x-1/2" style={{ backgroundColor: "#0F2C53" }} />
         
         <div className="pointer-events-none absolute right-[30px] top-[clamp(-140px,-9.7vw,-100px)] z-10 hidden aspect-[480/620] w-[clamp(400px,37.5vw,540px)] lg:block xl:right-[max(30px,calc((100vw-1440px)/2+30px))]">
           <Image

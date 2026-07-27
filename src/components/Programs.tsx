@@ -11,7 +11,7 @@ const programs = [
     description:
       "Coordinated care for patients with two or more chronic conditions. Automated outreach, personalized care plans, and monthly follow-ups, fully billed under our NPI.",
     cpt: "CPT codes 99490, 99439, 99487, 99489",
-    image: "/images/ccm.png",
+    image: "/images/RCMrec.svg",
   },
   {
     tag: "RPM",

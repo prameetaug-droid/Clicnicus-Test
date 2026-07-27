@@ -52,8 +52,11 @@ export default function PurposeBuilt() {
             {challenges.map((item) => (
               <article
                 key={item.stat}
-                className="w-full rounded-[16px] bg-[rgba(228,234,242,0.56)] p-5 sm:p-6"
+                className="relative w-full rounded-[16px] bg-[rgba(228,234,242,0.56)] p-5 sm:p-6"
               >
+                <div className="pointer-events-none absolute left-[calc(50%-110px)] top-1/2 z-10 h-6 w-6 -translate-x-1/2 -translate-y-1/2">
+                  <img src="/images/Arrow.svg" alt="" className="h-full w-full" />
+                </div>
                 <div className="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
                   <div className="min-w-0 flex-1">
                     <span className="inline-flex rounded-[12px] bg-[#FCECE9] px-3 py-1 text-[9px] font-bold uppercase tracking-[0.4px] text-[#E0492D]">
