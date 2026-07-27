@@ -73,7 +73,7 @@ export default function Footer() {
                   />
                 </a>
                 <a
-                  href="https://www.instagram.com/clinicus.ai/"
+                  href="https://www.linkedin.com/company/clinicus-ai/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Visit LinkedIn"
