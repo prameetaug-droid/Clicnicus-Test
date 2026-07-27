@@ -27,8 +27,9 @@ export default function Footer() {
           className="mb-8 h-auto w-[180px] sm:mb-10 sm:w-[220px] lg:mb-[42px] lg:w-[265px]"
         />
 
-        <h2 className="max-w-[560px] text-[30px] font-light leading-[1] text-white sm:text-[60px] md:text-[44px] lg:text-[48px] lg:leading-[1.09]">
-          Start Your Care Management Journey{" "}<span className="uppercase">Today</span>
+        <h2 className="max-w-[650px] text-[32px] font-light leading-[1.15] text-white sm:text-[40px] md:text-[44px] lg:text-[48px] lg:leading-[1.09]">
+          Start Your Care Management Journey{" "}
+          <span className="uppercase">Today</span>
         </h2>
 
         <a
