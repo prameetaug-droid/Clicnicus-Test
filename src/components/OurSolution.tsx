@@ -98,15 +98,15 @@ export default function OurSolution() {
 
         <div className="mt-10 flex flex-col gap-4 sm:gap-6 md:gap-8 lg:mt-[64px] lg:flex-row lg:gap-[31px]">
           <div className="w-full lg:max-w-[511px] lg:shrink-0">
-            <div className="relative w-full overflow-hidden rounded-t-[16px] h-[200px] sm:h-[280px] md:h-[340px] lg:h-[419px] lg:rounded-t-[20px] bg-purple-light">
+            <div className="relative w-full overflow-hidden rounded-t-[16px] h-[200px] sm:h-[280px] md:h-[340px] lg:h-[419px] lg:rounded-t-[20px] bg-gradient-to-br from-purple-light via-white to-purple-light">
               <Image
                 src="/images/dashboard-4e6985.png"
                 alt="Clinicus unified dashboard"
                 fill
-                className="object-contain object-center"
+                className="object-cover object-center"
               />
             </div>
-            <div className="-mt-8 rounded-[16px] bg-purple-light px-4 pb-5 pt-10 sm:-mt-10 sm:px-6 sm:pb-6 sm:pt-12 md:-mt-12 md:px-7 md:pb-7 md:pt-14 lg:-mt-16 lg:rounded-[20px] lg:px-6 lg:pt-[72px] lg:pb-7">
+            <div className="-mt-8 rounded-[16px] bg-white border border-purple-200 px-4 pb-5 pt-10 sm:-mt-10 sm:px-6 sm:pb-6 sm:pt-12 md:-mt-12 md:px-7 md:pb-7 md:pt-14 lg:-mt-16 lg:rounded-[20px] lg:px-6 lg:pt-[72px] lg:pb-7 shadow-sm">
               <h3 className="text-xl font-bold text-navy sm:text-[22px]">
                 Unified Dashboard
               </h3>
@@ -117,20 +117,23 @@ export default function OurSolution() {
             </div>
           </div>
 
-          <div className="grid flex-1 grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-4">
+          <div className="grid flex-1 grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6 md:gap-6 lg:gap-6">
             {featureCards.map((card) => (
               <div
                 key={card.title}
-                className={`relative feature-card flex min-h-[180px] flex-col rounded-[16px] p-5 sm:min-h-[200px] sm:rounded-[18px] lg:min-h-[222px]`}
-                style={{ background: (card.title === 'Tech Integrations' || card.title === 'Risk Monitoring') ? '#F5E9FE' : '#EDF5FE' }}
+                className={`relative feature-card flex min-h-[160px] flex-col rounded-[16px] p-5 sm:min-h-[180px] sm:rounded-[18px] md:min-h-[200px] lg:min-h-[222px] shadow-sm border border-opacity-20`}
+                style={{ 
+                  background: (card.title === 'Tech Integrations' || card.title === 'Risk Monitoring') ? '#F5E9FE' : '#EDF5FE',
+                  borderColor: (card.title === 'Tech Integrations' || card.title === 'Risk Monitoring') ? '#D8B5F8' : '#B8DFFE'
+                }}
               >
-                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-[11px] bg-white">
+                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-[11px] bg-white shadow-xs">
                   <FeatureIcon type={card.icon} />
                 </div>
-                <h3 className="text-[15px] font-bold text-navy sm:text-[15.5px]">
+                <h3 className="text-[15px] font-bold text-navy sm:text-[16px] md:text-[15px]">
                   {card.title}
                 </h3>
-                <p className="mt-1 text-[11px] font-medium leading-4 text-muted sm:text-[11.5px]">
+                <p className="mt-2 text-[11px] font-medium leading-4 text-muted sm:text-[12px] md:text-[11px]">
                   {card.description}
                 </p>
               </div>
