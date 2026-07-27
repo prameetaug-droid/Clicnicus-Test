@@ -4,11 +4,11 @@ import { SectionContainer } from "./SectionContainer";
 export default function Footer() {
   return (
     <div className="relative isolate overflow-visible">
-      <footer className="relative z-0 mt-12 overflow-visible md:mt-16 lg:mt-[80px]" style={{ backgroundColor: "#0F2C53" }}>
+      <footer className="relative z-0 mt-10 overflow-visible md:mt-10 lg:mt-[50px]" style={{ backgroundColor: "#0F2C53" }}>
         {/* Blue banner backdrop */}
         <div className="pointer-events-none absolute left-1/2 top-0 z-0 h-[547px] w-[1440px] max-w-full -translate-x-1/2" style={{ backgroundColor: "#0F2C53" }} />
         
-        <div className="pointer-events-none absolute hidden right-[30px] top-[clamp(-150px,-10.5vw,-110px)] z-10 aspect-[480/620] w-[clamp(400px,37.5vw,540px)] md:block xl:right-[max(30px,calc((100vw-1440px)/2+30px))]">
+        <div className="pointer-events-none absolute hidden right-[30px] top-[clamp(-76px,-12vw,-100px)] z-10 aspect-[480/620] w-[clamp(200px,32vw,540px)] md:block xl:right-[max(30px,calc((100vw-1440px)/2+30px))]">
           <Image
             src="/images/footer-doctor-4ebf4c.png"
             alt=""
@@ -18,13 +18,13 @@ export default function Footer() {
           />
         </div>
 
-        <SectionContainer className="relative z-10 pb-8 pt-16 sm:pb-10 sm:pt-20 lg:pt-[140px]">
+        <SectionContainer className="relative z-10 pb-8 pt-12 sm:pb-10 sm:pt-16 lg:pt-[120px]">
         <Image
           src="/images/logo-footer.svg"
           alt="Clinicus"
           width={265}
           height={80}
-          className="-mt-6 mb-10 h-auto w-[180px] sm:-mt-6 sm:mb-10 sm:w-[220px] lg:-mt-6 lg:mb-[42px] lg:w-[265px]"
+          className="-mt-7 mb-10 h-auto w-[180px] sm:-mt-9 sm:mb-10 sm:w-[290px] lg:-mt-1 lg:mb-[42px] lg:w-[265px]"
         />
 
         <h2 className="max-w-[650px] text-[32px] font-light leading-[1.15] text-white sm:text-[40px] md:text-[44px] lg:text-[48px] lg:leading-[1.09]">
