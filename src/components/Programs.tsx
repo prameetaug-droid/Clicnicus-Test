@@ -54,8 +54,13 @@ export default function Programs() {
                   fill
                   className="rounded-t-[16px] object-cover sm:rounded-t-[18px]"
                 />
-                <span className="absolute left-5 top-5 inline-flex h-8 w-[60px] items-center justify-center rounded-lg bg-purple-light text-xs font-extrabold text-purple sm:left-6 sm:top-6">
-                  {program.tag}
+                <span className="absolute left-5 top-5 inline-flex h-8 w-[60px] items-center justify-center rounded-lg bg-purple-light">
+                  <img 
+                    src={`/images/${program.tag}.svg`} 
+                    alt={program.tag}
+                    width={40}
+                    height={24}
+                  />
                 </span>
               </div>
               <div className="px-5 pb-5 pt-4 sm:px-6 sm:pb-6">

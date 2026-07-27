@@ -21,9 +21,18 @@ export default function CtaBanner() {
             </h2>
             <a
               href="#demo"
-              className="mt-5 inline-flex h-11 w-fit items-center justify-center rounded-[12px] bg-white px-6 text-sm font-bold text-navy transition-opacity hover:opacity-90 sm:mt-[15px] sm:h-12 sm:w-[153px] sm:text-[15.3px]"
+              className="mt-5 inline-flex h-11 w-fit items-center justify-center gap-2 rounded-[12px] bg-white px-6 text-sm font-bold text-navy transition-opacity hover:opacity-90 sm:mt-[15px] sm:h-12 sm:w-fit sm:text-[15.3px]"
             >
-              Book A Demo
+              <span>Book A Demo</span>
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden className="shrink-0">
+                <path
+                  d="M3 2L11 7L3 12"
+                  stroke="#0F2C53"
+                  strokeWidth="2.4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </a>
           </div>
 

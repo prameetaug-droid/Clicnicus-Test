@@ -89,6 +89,13 @@ export default function HeroImage() {
           <div
            className="absolute hidden w-[183px] h-[131px] rounded-[14.5772px] border-[0.607384px] border-white/12 bg-[rgba(28,31,36,0.41)] box-border p-[14.6px] shadow-2xl z-20 lg:block lg:left-[796px] lg:top-[300px]"
           >
+           <div className="absolute right-[14.6px] top-[14.6px]">
+             <img
+               src="/images/Orangebell.svg"
+               alt="alert bell"
+               className="h-6 w-6"
+             />
+           </div>
            <p className="text-[6.1px] font-bold uppercase tracking-[0.12em] text-[#B2B2B8]">
              ALERT
            </p>
