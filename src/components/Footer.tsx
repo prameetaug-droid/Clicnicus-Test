@@ -8,7 +8,7 @@ export default function Footer() {
         {/* Blue banner backdrop */}
         <div className="pointer-events-none absolute left-1/2 top-0 z-0 h-[547px] w-[1440px] max-w-full -translate-x-1/2" style={{ backgroundColor: "#0F2C53" }} />
         
-        <div className="pointer-events-none absolute hidden right-[30px] top-[clamp(-140px,-9.7vw,-100px)] z-10 aspect-[480/620] w-[clamp(400px,37.5vw,540px)] lg:block xl:right-[max(30px,calc((100vw-1440px)/2+30px))]">
+        <div className="pointer-events-none absolute hidden right-[30px] top-[clamp(-140px,-9.7vw,-100px)] z-10 aspect-[480/620] w-[clamp(400px,37.5vw,540px)] md:block xl:right-[max(30px,calc((100vw-1440px)/2+30px))]">
           <Image
             src="/images/footer-doctor-4ebf4c.png"
             alt=""
@@ -27,9 +27,8 @@ export default function Footer() {
           className="mb-8 h-auto w-[180px] sm:mb-10 sm:w-[220px] lg:mb-[42px] lg:w-[265px]"
         />
 
-        <h2 className="max-w-[630px] text-[32px] font-light leading-[1.15] text-white sm:text-[40px] md:text-[44px] lg:text-[48px] lg:leading-[1.09]">
-          Start Your Care Management Journey{" "}
-          <span className="uppercase">Today</span>
+        <h2 className="max-w-[560px] text-[30px] font-light leading-[1] text-white sm:text-[60px] md:text-[44px] lg:text-[48px] lg:leading-[1.09]">
+          Start Your Care Management Journey{" "}<span className="uppercase">Today</span>
         </h2>
 
         <a
