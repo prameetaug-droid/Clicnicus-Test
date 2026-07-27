@@ -151,7 +151,7 @@ export default function Hero() {
         <div className="flex flex-col items-stretch gap-10 lg:flex-row lg:items-start lg:justify-between xl:gap-10">
           <div className="w-full lg:max-w-[560px] lg:shrink-0">
             <p className="text-[10px] font-bold uppercase tracking-[0.0952em] text-purple sm:text-[10.5px]">
-              • TRUSTED CARE MANAGEMENT PLATFORM
+              TRUSTED CARE MANAGEMENT PLATFORM
             </p>
             <h1 className="mt-3 text-[32px] font-light leading-[1.15] text-navy sm:mt-[15px] sm:text-[38px] md:text-[44px] lg:text-[50px] lg:leading-[58px]">
               Care Program That Improves Patient Outcomes & Maximizes Practice
