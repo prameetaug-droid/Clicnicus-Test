@@ -43,7 +43,7 @@ export default function Testimonials() {
           {testimonials.map((item) => (
             <article
               key={item.name}
-              className="rounded-[16px] border border-border bg-surface px-5 py-6 sm:rounded-[18px] sm:px-6 sm:py-[27px] md:last:col-span-2 md:last:max-w-none lg:last:col-span-1"
+              className="rounded-[16px] bg-surface px-5 py-6 shadow-lg sm:rounded-[18px] sm:px-6 sm:py-[27px] md:last:col-span-2 md:last:max-w-none lg:last:col-span-1"
               style={{ backgroundColor: "#FBFCFE" }}
             >
               <p className="text-[12px] font-medium leading-[18px] text-navy sm:text-[12.5px]">
