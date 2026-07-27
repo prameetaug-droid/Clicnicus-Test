@@ -24,7 +24,7 @@ export default function Footer() {
           alt="Clinicus"
           width={265}
           height={80}
-          className="mb-8 h-auto w-[180px] sm:mb-10 sm:w-[220px] lg:mb-[42px] lg:w-[265px]"
+          className="-mt-2 mb-8 h-auto w-[180px] sm:-mt-3 sm:mb-10 sm:w-[220px] lg:-mt-4 lg:mb-[42px] lg:w-[265px]"
         />
 
         <h2 className="max-w-[650px] text-[32px] font-light leading-[1.15] text-white sm:text-[40px] md:text-[44px] lg:text-[48px] lg:leading-[1.09]">
