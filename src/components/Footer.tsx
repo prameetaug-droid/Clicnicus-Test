@@ -76,7 +76,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 sm:mt-16 lg:mt-[12px]" style={{ height: "1px", backgroundColor: "#334766" }} />
+        <div className="mt-14 sm:mt-18 lg:mt-[24px]" style={{ height: "1px", backgroundColor: "#334766" }} />
 
         <div className="mt-5 flex flex-col gap-3 sm:mt-[22px] sm:flex-row sm:items-center sm:justify-between sm:gap-4">
           <p className="text-[11px] font-medium sm:text-[11.5px]" style={{ color: "#99ABC7" }}>
