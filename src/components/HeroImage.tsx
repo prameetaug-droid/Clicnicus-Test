@@ -19,129 +19,129 @@ export default function HeroImage() {
 
           {/* Live Patient Snapshot widget */}
           <div
-            className="absolute left-[4%] top-[28%] hidden w-[42%] max-w-[284px] rounded-[16.6px] border border-white/30 p-3 sm:block sm:p-4 md:p-5"
+            className="absolute left-[2%] top-[20%] block w-[48%] max-w-[140px] rounded-[12px] border border-white/30 p-2 sm:left-[4%] sm:top-[24%] sm:w-[42%] sm:max-w-[200px] sm:rounded-[16.6px] sm:p-3 md:top-[26%] md:max-w-[284px] md:p-4 lg:top-[28%] lg:p-5"
             style={{ background: "rgba(26, 26, 26, 0.33)" }}
           >
-            <p className="text-[11px] font-extrabold text-white sm:text-[13px] md:text-[15.4px]">
+            <p className="text-[7px] font-extrabold text-white sm:text-[11px] md:text-[13px] lg:text-[15.4px]">
               LIVE PATIENT SNAPSHOT
             </p>
-            <p className="mt-1 text-[8px] font-medium text-[#BFCCDE] sm:text-[9.1px]">
+            <p className="mt-0.5 text-[6px] font-medium text-[#BFCCDE] sm:mt-1 sm:text-[8px] md:text-[9.1px]">
               Spend Today
             </p>
-            <p className="text-sm font-extrabold text-white sm:text-base md:text-[18.3px]">
+            <p className="text-xs font-extrabold text-white sm:text-sm md:text-base lg:text-[18.3px]">
               98% SpO2
             </p>
             <img
               src="/images/Vector.svg"
               alt="trend chart"
-              className="mt-2 w-full sm:mt-3"
+              className="mt-1 w-full sm:mt-2 md:mt-3"
             />
-            <div className="mt-2 flex items-end justify-between">
+            <div className="mt-1.5 flex items-end justify-between sm:mt-2">
               <div>
-                <p className="text-[7px] font-medium text-[#BFCCDE] sm:text-[8.3px]">
+                <p className="text-[5px] font-medium text-[#BFCCDE] sm:text-[7px] md:text-[8.3px]">
                   Blood Pressure
                 </p>
-                <p className="text-[10px] font-bold text-[#FF826B] sm:text-[12.4px]">
+                <p className="text-[7px] font-bold text-[#FF826B] sm:text-[10px] md:text-[12.4px]">
                   121/80
                 </p>
               </div>
-              <span className="text-[10px] font-semibold text-[#8CD9A6] sm:text-[11.5px]">
+              <span className="text-[7px] font-semibold text-[#8CD9A6] sm:text-[10px] md:text-[11.5px]">
                 Normal
               </span>
-              <span className="h-3 w-3 rounded-full bg-green sm:h-[14px] sm:w-[14px]" />
+              <span className="h-2 w-2 rounded-full bg-green sm:h-3 sm:w-3 md:h-[14px] md:w-[14px]" />
             </div>
           </div>
 
           {/* Dr. Sarah Chen card */}
-          <div className="absolute bottom-[8%] left-[50%] hidden -translate-x-1/2 items-center gap-2 rounded-2xl bg-white px-2 py-2 shadow-[0px_14px_28px_0px_rgba(15,26,51,0.16)] sm:flex md:bottom-auto md:left-[37%] md:top-[62%] md:w-[212px] md:translate-x-0 md:gap-3 md:px-[9px] lg:left-[527px] lg:top-[262px]">
+          <div className="absolute bottom-[6%] left-[50%] flex -translate-x-1/2 items-center gap-1 rounded-xl bg-white px-1.5 py-1.5 shadow-[0px_14px_28px_0px_rgba(15,26,51,0.16)] sm:bottom-[8%] sm:gap-2 sm:px-2 sm:py-2 md:bottom-auto md:left-[35%] md:top-[62%] md:w-[212px] md:-translate-x-0 md:gap-3 md:px-[9px] lg:left-[824px] lg:top-[262px]">
             <img
               src="/images/SCname.svg"
               alt="SC initials"
-              className="h-8 w-8 shrink-0 rounded-full md:h-10 md:w-10"
+              className="h-6 w-6 shrink-0 rounded-full sm:h-7 sm:w-7 md:h-10 md:w-10"
             />
             <div>
-              <p className="text-xs font-bold text-navy md:text-[14px]">
+              <p className="text-[10px] font-bold text-navy sm:text-xs md:text-[14px]">
                 Dr. Sarah Chen
               </p>
-              <p className="text-[10px] font-medium text-muted md:text-[11.5px]">
+              <p className="text-[8px] font-medium text-muted sm:text-[9px] md:text-[11.5px]">
                 Care Coordinator
               </p>
             </div>
           </div>
 
           {/* Find patient search */}
-          <div className="absolute right-[4%] top-[18%] hidden h-12 w-[42%] max-w-[209px] items-center gap-2 rounded-[32px] border border-border bg-white px-3 shadow-[0px_14px_28px_0px_rgba(15,26,51,0.16)] md:flex md:h-16 md:gap-3 md:px-[18px] lg:right-[211px] lg:top-[218px]">
+          <div className="absolute right-[16%] top-[29%] flex h-9 w-[48%] max-w-[130px] items-center gap-1.5 rounded-full border border-border bg-white px-2 shadow-[0px_14px_28px_0px_rgba(15,26,51,0.16)] sm:right-[14%] sm:top-[31%] sm:h-10 sm:w-[42%] sm:max-w-[170px] sm:gap-2 sm:px-2.5 md:right-[12%] md:top-[33%] md:h-12 md:max-w-[200px] md:px-3 lg:right-[211px] lg:top-[218px] lg:h-16 lg:gap-3 lg:px-[18px]">
            <img
              src="/images/Greentick.svg"
              alt="checkmark"
              width={28}
              height={28}
-             className="h-7 w-7 shrink-0 md:h-8 md:w-8"
+             className="h-5 w-5 shrink-0 sm:h-6 sm:w-6 md:h-7 md:w-7 lg:h-8 lg:w-8"
            />
-           <span className="text-[11px] font-medium text-muted md:text-[13px]">
+           <span className="text-[8px] font-medium text-muted sm:text-[10px] md:text-[11px] lg:text-[13px]">
              Find patient by ID...
            </span>
           </div>
 
           {/* Patients at Risk widget */}
           <div
-           className="absolute hidden w-[183px] h-[131px] rounded-[14.5772px] border-[0.607384px] border-white/12 bg-[rgba(28,31,36,0.41)] box-border p-[14.6px] shadow-2xl z-20 lg:block lg:left-[796px] lg:top-[300px]"
+           className="absolute block w-[130px] h-[95px] rounded-[12px] border-[0.5px] border-white/12 bg-[rgba(28,31,36,0.41)] box-border p-[10px] shadow-2xl z-20 right-[2%] top-[42%] sm:w-[150px] sm:h-[105px] sm:p-[12px] md:right-[3%] md:top-[48%] md:w-[170px] md:h-[120px] md:p-[13px] lg:left-[1228px] lg:top-[300px] lg:w-[183px] lg:h-[131px] lg:p-[14.6px] lg:rounded-[14.5772px] lg:border-[0.607384px]"
           >
-           <div className="absolute right-[14.6px] top-[14.6px]">
+           <div className="absolute right-[10px] top-[10px] sm:right-[12px] sm:top-[12px] lg:right-[14.6px] lg:top-[14.6px]">
              <img
                src="/images/Orangebell.svg"
                alt="alert bell"
-               className="h-6 w-6"
+               className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6"
              />
            </div>
-           <p className="text-[6.1px] font-bold uppercase tracking-[0.12em] text-[#B2B2B8]">
+           <p className="text-[5px] font-bold uppercase tracking-[0.1em] text-[#B2B2B8] sm:text-[5.5px] lg:text-[6.1px] lg:tracking-[0.12em]">
              ALERT
            </p>
-           <p className="text-[11.5px] font-bold text-white">Patients at Risk</p>
-           <div className="mt-2 rounded-[9.7px] bg-white/8 p-2 lg:mt-3 lg:p-2.5">
-             <div className="flex items-center gap-2">
+           <p className="text-[9px] font-bold text-white sm:text-[10px] lg:text-[11.5px]">Patients at Risk</p>
+           <div className="mt-1 rounded-[8px] bg-white/8 p-1.5 sm:mt-1.5 sm:rounded-[9px] sm:p-1.5 lg:mt-2 lg:rounded-[9.7px] lg:p-2.5">
+             <div className="flex items-center gap-1 sm:gap-1.5">
                <img
                  src="/images/Triangle.svg"
                  alt="alert triangle"
-                 className="h-8 w-8 shrink-0"
+                 className="h-5 w-5 shrink-0 sm:h-6 sm:w-6 lg:h-8 lg:w-8"
                />
                <div>
-                 <p className="text-[8.5px] font-bold leading-tight text-white">
+                 <p className="text-[6px] font-bold leading-tight text-white sm:text-[7px] lg:text-[8.5px]">
                    3 patients flagged for
                  </p>
-                 <p className="text-[8.5px] font-bold leading-tight text-white">
+                 <p className="text-[6px] font-bold leading-tight text-white sm:text-[7px] lg:text-[8.5px]">
                    abnormal vitals today
                  </p>
                </div>
              </div>
            </div>
-           <p className="mt-1.5 text-[6.7px] font-medium text-[#A6A6AD] lg:mt-2">
+           <p className="mt-1 text-[5px] font-medium text-[#A6A6AD] sm:mt-1.5 sm:text-[5.5px] lg:mt-1.5 lg:text-[6.7px]">
              Action required, please review care plans.
            </p>
           </div>
 
           {/* Smart Scale Data widget */}
           <div
-            className="absolute right-[4%] top-[6%] hidden w-[38%] max-w-[190px] rounded-[13.5px] p-3 md:block md:p-[18px] lg:right-[53px] lg:top-[80px]"
+            className="absolute right-[2%] top-[3%] block w-[40%] max-w-[130px] rounded-[11px] p-2 sm:right-[4%] sm:top-[5%] sm:max-w-[160px] sm:p-2.5 md:right-[5%] md:top-[6%] md:max-w-[190px] md:rounded-[13px] md:p-[18px] lg:right-[6%] lg:top-[7%]"
             style={{ background: "rgba(0, 0, 0, 0.24)" }}
           >
-            <div className="absolute right-3 top-3 md:right-[18px] md:top-[18px]">
+            <div className="absolute right-2 top-2 sm:right-2.5 sm:top-2.5 md:right-3 md:top-3 lg:right-[18px] lg:top-[18px]">
               <img
                 src="/images/thumb.svg"
                 alt="thumbs up"
-                className="h-6 w-6 md:h-7 md:w-7"
+                className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 lg:h-7 lg:w-7"
               />
             </div>
-            <p className="text-[6px] font-bold uppercase tracking-[0.1053em] text-white md:text-[7.1px]">
+            <p className="text-[5px] font-bold uppercase tracking-[0.08em] text-white sm:text-[5.5px] md:text-[6px] lg:text-[7.1px] lg:tracking-[0.1053em]">
               SMART SCALE DATA
             </p>
-            <p className="text-xs font-bold text-white md:text-[13.5px]">
+            <p className="text-[8px] font-bold text-white sm:text-[9px] md:text-xs lg:text-[13.5px]">
               Weight Tracking
             </p>
-            <p className="mt-0.5 text-lg font-extrabold text-white md:mt-1 md:text-[22.6px]">
+            <p className="mt-0.5 text-sm font-extrabold text-white sm:text-base md:mt-1 md:text-lg lg:text-[22.6px]">
               195 lbs
             </p>
-            <p className="text-[8px] font-medium text-white md:text-[9.4px]">
+            <p className="text-[6px] font-medium text-white sm:text-[7px] md:text-[8px] lg:text-[9.4px]">
               You have lost 3 lbs. Good job!
             </p>
           </div>
