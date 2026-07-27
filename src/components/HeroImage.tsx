@@ -10,7 +10,8 @@ export default function HeroImage() {
               src="/images/hero-doctor-79299a.png"
               alt="Experienced doctor using smartphone"
               fill
-              sizes="100vw"
+              sizes="(max-width: 768px) 100vw, 50vw"
+              quality={78}
               className="object-cover hero-image-grayscale"
               style={{ objectPosition: '40% 35%' }}
               priority
@@ -35,6 +36,8 @@ export default function HeroImage() {
               src="/images/Vector.svg"
               alt="trend chart"
               className="mt-1 w-full sm:mt-2 md:mt-3"
+              loading="lazy"
+              decoding="async"
             />
             <div className="mt-1.5 flex items-end justify-between sm:mt-2">
               <div>
@@ -58,6 +61,8 @@ export default function HeroImage() {
               src="/images/SCname.svg"
               alt="SC initials"
               className="h-6 w-6 shrink-0 rounded-full sm:h-7 sm:w-7 md:h-10 md:w-10"
+              loading="lazy"
+              decoding="async"
             />
             <div>
               <p className="text-[10px] font-bold text-navy sm:text-xs md:text-[14px]">
@@ -77,6 +82,8 @@ export default function HeroImage() {
              width={28}
              height={28}
              className="h-5 w-5 shrink-0 sm:h-6 sm:w-6 md:h-7 md:w-7 lg:h-8 lg:w-8"
+             loading="lazy"
+             decoding="async"
            />
            <span className="text-[8px] font-medium text-muted sm:text-[10px] md:text-[11px] lg:text-[13px]">
              Find patient by ID...
@@ -92,6 +99,8 @@ export default function HeroImage() {
                src="/images/Orangebell.svg"
                alt="alert bell"
                className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6"
+               loading="lazy"
+               decoding="async"
              />
            </div>
            <p className="text-[5px] font-bold uppercase tracking-[0.1em] text-[#B2B2B8] sm:text-[5.5px] lg:text-[6.1px] lg:tracking-[0.12em]">
@@ -104,6 +113,8 @@ export default function HeroImage() {
                  src="/images/Triangle.svg"
                  alt="alert triangle"
                  className="h-5 w-5 shrink-0 sm:h-6 sm:w-6 lg:h-8 lg:w-8"
+                 loading="lazy"
+                 decoding="async"
                />
                <div>
                  <p className="text-[6px] font-bold leading-tight text-white sm:text-[7px] lg:text-[8.5px]">
@@ -130,6 +141,8 @@ export default function HeroImage() {
                 src="/images/thumb.svg"
                 alt="thumbs up"
                 className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 lg:h-7 lg:w-7"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <p className="text-[5px] font-bold uppercase tracking-[0.08em] text-white sm:text-[5.5px] md:text-[6px] lg:text-[7.1px] lg:tracking-[0.1053em]">
