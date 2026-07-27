@@ -22,7 +22,7 @@ export default function StatsSection() {
             className="order-2 rounded-[24px] p-6 sm:rounded-[32px] sm:p-8 lg:absolute lg:bottom-0 lg:left-0 lg:order-none lg:flex lg:h-[367px] lg:w-full lg:items-center lg:rounded-[38px] lg:p-0"
             style={{
               background:
-                "linear-gradient(73deg, rgba(159, 31, 246, 1) 0%, rgba(15, 44, 83, 1) 100%)",
+                "linear-gradient(110deg, rgba(159, 31, 246, 1) 0%, rgba(15, 44, 83, 1) 100%)",
             }}
           >
             <div className="lg:pl-[57px]">

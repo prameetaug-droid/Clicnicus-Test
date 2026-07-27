@@ -12,7 +12,7 @@ export default function CtaBanner() {
           className="relative flex min-h-[360px] flex-col overflow-hidden rounded-[18px] sm:min-h-[400px] sm:rounded-[22px] lg:h-[367px] lg:flex-row"
           style={{
             background:
-              "linear-gradient(69deg, rgba(159, 31, 246, 1) 0%, rgba(159, 31, 246, 0) 100%)",
+              "linear-gradient(165deg, rgba(159, 31, 246, 1) 0%, rgba(159, 31, 246, 0) 100%)",
           }}
         >
           <div className="relative z-10 flex flex-col justify-center px-6 py-8 sm:px-10 sm:py-10 lg:max-w-[55%] lg:pl-[69px] lg:pr-0">
@@ -23,7 +23,7 @@ export default function CtaBanner() {
               href="#demo"
               className="mt-5 inline-flex h-11 w-fit items-center justify-center rounded-[12px] bg-white px-6 text-sm font-bold text-navy transition-opacity hover:opacity-90 sm:mt-[15px] sm:h-12 sm:w-[153px] sm:text-[15.3px]"
             >
-              Book Your Demo
+              Book A Demo
             </a>
           </div>
 

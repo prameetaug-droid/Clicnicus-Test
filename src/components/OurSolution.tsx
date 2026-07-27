@@ -54,13 +54,14 @@ function FeatureIcon({ type }: { type: string }) {
   }
   if (type === "shield") {
     return (
-      <svg width="18" height="20" viewBox="0 0 18 20" fill="none" aria-hidden>
-        <path
-          d="M9 1L17 5V10C17 15 13 18.5 9 19C5 18.5 1 15 1 10V5L9 1Z"
-          stroke="#0F2C53"
-          strokeWidth="2"
-        />
-      </svg>
+      // Use a static SVG asset for the shield so designers can update it in Figma
+      // Keep it as a plain <img> to avoid SSR/next/image layout issues with missing assets
+      <img
+        src="/images/Audit-Ready%20Compliance.svg"
+        alt="Audit-Ready Compliance"
+        width={18}
+        height={20}
+      />
     );
   }
   if (type === "link") {
@@ -96,23 +97,26 @@ export default function OurSolution() {
           description="Clinicus replaces your fragmented mix of tools with a single connected system, purpose-built for CCM, RPM, TCM, and every care management program you run."
         />
 
-        <div className="mt-10 flex flex-col gap-4 sm:gap-6 md:gap-8 lg:mt-[64px] lg:flex-row lg:gap-[31px]">
-          <div className="w-full lg:max-w-[511px] lg:shrink-0">
-            <div className="relative w-full overflow-hidden rounded-t-[16px] h-[200px] sm:h-[280px] md:h-[340px] lg:h-[419px] lg:rounded-t-[20px] bg-purple-light">
+        <div className="mt-12 flex flex-col gap-4 sm:mt-14 sm:gap-6 md:mt-16 md:gap-8 lg:mt-[64px] lg:flex-row lg:gap-[48px]">
+          <div className="relative w-full lg:max-w-[511px] lg:shrink-0">
+            <div className="absolute left-1/2 top-[120px] h-[100px] w-[320px] -translate-x-1/2 rounded-[20px] bg-[#3772B2] z-0 sm:left-[-5px] sm:top-[100px] sm:h-[220px] sm:w-[360px] sm:translate-x-0 md:left-[-5px] md:top-[140px] md:h-[280px] md:w-[430px] md:translate-x-0 lg:left-[-5px] lg:top-[80px] lg:h-[460px] lg:w-[490.56px] lg:translate-x-0" />
+            <div className="relative z-10 h-[220px] sm:h-[180px] md:h-[340px] lg:h-[460px] overflow-visible">
               <Image
                 src="/images/dashboard-4e6985.png"
                 alt="Clinicus unified dashboard"
                 fill
                 className="object-contain object-center"
+                style={{ objectPosition: '50% 8%' }}
               />
             </div>
-            <div className="-mt-8 rounded-[16px] bg-purple-light px-4 pb-5 pt-10 sm:-mt-10 sm:px-6 sm:pb-6 sm:pt-12 md:-mt-12 md:px-7 md:pb-7 md:pt-14 lg:-mt-16 lg:rounded-[20px] lg:px-6 lg:pt-[72px] lg:pb-7">
+            <div className="relative z-20 mt-[80px] px-4 sm:mt-[140px] sm:px-6 md:mt-[112px] md:px-7 lg:mt-[24px] lg:px-0">
               <h3 className="text-xl font-bold text-navy sm:text-[22px]">
                 Unified Dashboard
               </h3>
               <p className="mt-1 max-w-[403px] text-[13px] font-medium leading-5 text-muted sm:text-[13.5px]">
-                Manage patients and care teams efficiently without switching
-                tools.
+                Manage patients and care teams efficiently without
+                <br />
+                switching tools.
               </p>
             </div>
           </div>

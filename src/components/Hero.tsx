@@ -198,7 +198,7 @@ export default function Hero() {
             <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
               {isHydrated ? (
                 <>
-                  <div className="grid grid-cols-2 gap-6">
+                  <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
                     <input
                       name="name"
                       type="text"
