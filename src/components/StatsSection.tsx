@@ -44,7 +44,7 @@ export default function StatsSection() {
             </div>
           </div>
 
-          <div className="relative order-1 h-[240px] w-full overflow-hidden rounded-[24px] sm:h-[300px] sm:rounded-[32px] md:h-[360px] lg:absolute lg:right-0 lg:top-0 lg:order-none lg:h-[449px] lg:w-[48%] lg:rounded-[41px] xl:w-[560px]">
+          <div className="relative order-1 hidden h-[240px] w-full overflow-hidden rounded-[24px] sm:h-[300px] sm:rounded-[32px] md:h-[360px] lg:absolute lg:right-0 lg:top-0 lg:order-none lg:block lg:h-[449px] lg:w-[48%] lg:rounded-[41px] xl:w-[560px]">
             <Image
               src="/images/stats-doctor-390097.png"
               alt="Doctor with elderly patient"

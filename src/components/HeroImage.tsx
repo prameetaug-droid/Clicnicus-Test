@@ -53,7 +53,7 @@ export default function HeroImage() {
           </div>
 
           {/* Dr. Sarah Chen card */}
-          <div className="absolute bottom-[6%] left-[50%] flex -translate-x-1/2 items-center gap-1 rounded-xl bg-white px-1.5 py-1.5 shadow-[0px_14px_28px_0px_rgba(15,26,51,0.16)] sm:bottom-[8%] sm:gap-2 sm:px-2 sm:py-2 md:bottom-auto md:left-[35%] md:top-[62%] md:w-[212px] md:-translate-x-0 md:gap-3 md:px-[9px] lg:left-[824px] lg:top-[262px]">
+          <div className="absolute bottom-[6%] left-[50%] flex -translate-x-1/2 items-center gap-1 rounded-xl bg-white px-1.5 py-1.5 shadow-[0px_14px_28px_0px_rgba(15,26,51,0.16)] sm:bottom-[8%] sm:gap-2 sm:px-2 sm:py-2 md:bottom-auto md:left-[35%] md:top-[62%] md:w-[212px] md:-translate-x-0 md:gap-3 md:px-[9px] lg:left-[420px] lg:top-[302px] lg:-translate-x-0">
             <img
               src="/images/SCname.svg"
               alt="SC initials"
@@ -70,7 +70,7 @@ export default function HeroImage() {
           </div>
 
           {/* Find patient search */}
-          <div className="absolute right-[16%] top-[29%] flex h-9 w-[48%] max-w-[130px] items-center gap-1.5 rounded-full border border-border bg-white px-2 shadow-[0px_14px_28px_0px_rgba(15,26,51,0.16)] sm:right-[14%] sm:top-[31%] sm:h-10 sm:w-[42%] sm:max-w-[170px] sm:gap-2 sm:px-2.5 md:right-[12%] md:top-[33%] md:h-12 md:max-w-[200px] md:px-3 lg:right-[211px] lg:top-[218px] lg:h-16 lg:gap-3 lg:px-[18px]">
+          <div className="absolute right-[2%] top-[42%] flex h-9 w-[48%] max-w-[130px] items-center gap-1.5 rounded-full border border-border bg-white px-2 shadow-[0px_14px_28px_0px_rgba(15,26,51,0.16)] sm:right-[3%] sm:top-[44%] sm:h-10 sm:w-[42%] sm:max-w-[170px] sm:gap-2 sm:px-2.5 md:right-[3%] md:top-[46%] md:h-12 md:max-w-[200px] md:px-3 lg:right-[211px] lg:top-[218px] lg:h-16 lg:gap-3 lg:px-[18px] lg:w-auto lg:max-w-none lg:rounded-full">
            <img
              src="/images/Greentick.svg"
              alt="checkmark"
@@ -85,7 +85,7 @@ export default function HeroImage() {
 
           {/* Patients at Risk widget */}
           <div
-           className="absolute block w-[130px] h-[95px] rounded-[12px] border-[0.5px] border-white/12 bg-[rgba(28,31,36,0.41)] box-border p-[10px] shadow-2xl z-20 right-[2%] top-[42%] sm:w-[150px] sm:h-[105px] sm:p-[12px] md:right-[3%] md:top-[48%] md:w-[170px] md:h-[120px] md:p-[13px] lg:left-[1228px] lg:top-[300px] lg:w-[183px] lg:h-[131px] lg:p-[14.6px] lg:rounded-[14.5772px] lg:border-[0.607384px]"
+           className="absolute hidden h-[95px] w-[130px] rounded-[12px] border-[0.5px] border-white/12 bg-[rgba(28,31,36,0.41)] p-[10px] shadow-2xl z-20 right-[2%] top-[42%] box-border sm:h-[105px] sm:w-[150px] sm:p-[12px] md:right-[3%] md:top-[48%] md:h-[120px] md:w-[170px] md:p-[13px] lg:block lg:left-[53%] lg:top-[290px] lg:h-[131px] lg:w-[183px] lg:p-[14.6px] lg:rounded-[14.5772px] lg:border-[0.607384px]"
           >
            <div className="absolute right-[10px] top-[10px] sm:right-[12px] sm:top-[12px] lg:right-[14.6px] lg:top-[14.6px]">
              <img
