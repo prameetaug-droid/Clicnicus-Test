@@ -28,8 +28,8 @@ export default function Footer() {
         />
 
         <h2 className="max-w-[650px] text-[32px] font-light leading-[1.15] text-white sm:text-[40px] md:text-[44px] lg:text-[48px] lg:leading-[1.09]">
-          Start Your Care Management Journey{" "}
-          <span className="uppercase">Today</span>
+          Start Your Care
+          <span className="block">Management Journey Today</span>
         </h2>
 
         <a
