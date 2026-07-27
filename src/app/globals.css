@@ -17,7 +17,7 @@
   --color-muted: #6b7c92;
 
   /* Borders & surfaces */
-  --color-border: #e9eef6;
+  --color-border: #e4eaf2;
   --color-border-light: #eef4fb;
   --color-surface: #ffffff;
 
@@ -41,7 +41,17 @@
 }
 
 
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
+  margin: 0;
+  padding: 0;
   background: var(--color-page);
   color: var(--color-navy);
   font-family: var(--font-manrope), system-ui, sans-serif;

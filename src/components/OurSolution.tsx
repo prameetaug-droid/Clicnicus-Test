@@ -125,7 +125,7 @@ export default function OurSolution() {
             {featureCards.map((card) => (
               <div
                 key={card.title}
-                className={`relative feature-card flex min-h-[160px] flex-col rounded-[16px] p-5 sm:min-h-[180px] sm:rounded-[18px] md:min-h-[200px] lg:min-h-[222px] shadow-sm border border-opacity-20`}
+                className={`relative feature-card flex min-h-[160px] flex-col rounded-[16px] p-5 sm:min-h-[180px] sm:rounded-[18px] md:min-h-[200px] lg:min-h-[222px]`}
                 style={{ 
                   background: (card.title === 'Tech Integrations' || card.title === 'Risk Monitoring') ? '#F5E9FE' : '#EDF5FE',
                   borderColor: (card.title === 'Tech Integrations' || card.title === 'Risk Monitoring') ? '#D8B5F8' : '#B8DFFE'

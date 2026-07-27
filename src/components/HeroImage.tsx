@@ -6,17 +6,15 @@ export default function HeroImage() {
       <div className="relative w-full">
         <div className="relative h-[220px] w-full overflow-hidden rounded-2xl sm:h-[300px] md:h-[360px] md:rounded-none lg:h-[431px]">
           <div className="absolute inset-0 overflow-hidden">
-            <div className="absolute left-[-4%] top-[-4%] w-[108%] h-[108%] scale-[0.92] origin-center">
-              <Image
-                src="/images/hero-doctor-79299a.png"
-                alt="Experienced doctor using smartphone"
-                fill
-                sizes="100vw"
-                className="object-cover hero-image-grayscale"
-                style={{ objectPosition: '40% 35%' }}
-                priority
-              />
-            </div>
+            <Image
+              src="/images/hero-doctor-79299a.png"
+              alt="Experienced doctor using smartphone"
+              fill
+              sizes="100vw"
+              className="object-cover hero-image-grayscale"
+              style={{ objectPosition: '40% 35%' }}
+              priority
+            />
           </div>
 
           {/* Live Patient Snapshot widget */}
@@ -89,6 +87,13 @@ export default function HeroImage() {
           <div
            className="absolute hidden w-[183px] h-[131px] rounded-[14.5772px] border-[0.607384px] border-white/12 bg-[rgba(28,31,36,0.41)] box-border p-[14.6px] shadow-2xl z-20 lg:block lg:left-[796px] lg:top-[300px]"
           >
+           <div className="absolute right-[14.6px] top-[14.6px]">
+             <img
+               src="/images/Orangebell.svg"
+               alt="alert bell"
+               className="h-6 w-6"
+             />
+           </div>
            <p className="text-[6.1px] font-bold uppercase tracking-[0.12em] text-[#B2B2B8]">
              ALERT
            </p>

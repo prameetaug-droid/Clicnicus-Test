@@ -34,7 +34,7 @@ export default function Header() {
           </span>
         </a>
       </SectionContainer>
-      <div className="h-px w-full bg-border" />
+      <div className="pointer-events-none absolute left-0 right-0 top-[88px] h-0 border-t border-[#E4EAF2]" />
     </header>
   );
 }
