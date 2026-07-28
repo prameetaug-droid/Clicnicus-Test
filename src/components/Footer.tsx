@@ -4,11 +4,11 @@ import { SectionContainer } from "./SectionContainer";
 export default function Footer() {
   return (
     <div className="relative isolate overflow-visible">
-      <footer className="relative z-0 mt-10 overflow-visible md:mt-10 lg:mt-[0px]" style={{ backgroundColor: "#0F2C53" }}>
+      <footer className="relative z-0 mt-12 overflow-visible md:mt-16 lg:mt-[80px]" style={{ backgroundColor: "#0F2C53" }}>
         {/* Blue banner backdrop */}
-        <div className="pointer-events-none absolute left-1/2 top-0 z-0 h-[400px] w-[1440px] max-w-full -translate-x-1/2" style={{ backgroundColor: "#0F2C53" }} />
+        <div className="pointer-events-none absolute left-1/2 top-0 z-0 h-[547px] w-[1440px] max-w-full -translate-x-1/2" style={{ backgroundColor: "#0F2C53" }} />
         
-        <div className="pointer-events-none absolute hidden right-[30px] top-[clamp(-96px,-12vw,-100px)] z-10 aspect-[480/620] w-[clamp(200px,32vw,540px)] md:block xl:right-[max(30px,calc((100vw-1440px)/2+30px))]">
+        <div className="pointer-events-none absolute hidden right-[30px] top-[clamp(-120px,-8.5vw,-90px)] z-10 aspect-[480/620] w-[clamp(300px,27vw,420px)] lg:block xl:right-[max(30px,calc((100vw-1440px)/2+30px))]">
           <Image
             src="/images/footer-doctor-4ebf4c.png"
             alt=""
@@ -18,18 +18,18 @@ export default function Footer() {
           />
         </div>
 
-        <SectionContainer className="relative z-10 pb-8 pt-12 sm:pb-10 sm:pt-16 lg:pt-[120px]">
+        <SectionContainer className="relative z-10 pb-8 pt-16 sm:pb-10 sm:pt-20 lg:pt-[140px]">
         <Image
           src="/images/logo-footer.svg"
           alt="Clinicus"
           width={265}
           height={80}
-          className="-mt-7 mb-10 h-auto w-[180px] sm:-mt-9 sm:mb-10 sm:w-[290px] lg:-mt-1 lg:mb-[42px] lg:w-[265px]"
+          className="-mt-6 mb-8 h-auto w-[180px] sm:-mt-7 sm:mb-10 sm:w-[220px] lg:-mt-8 lg:mb-[42px] lg:w-[265px]"
         />
 
-        <h2 className="max-w-[650px] text-[32px] font-light leading-[1.15] text-white sm:text-[40px] md:text-[44px] lg:text-[48px] lg:leading-[1.09]">
-          Start Your Care
-          <span className="block">Management Journey Today</span>
+        <h2 className="max-w-[630px] text-[32px] font-light leading-[1.15] text-white sm:text-[40px] md:text-[44px] lg:text-[48px] lg:leading-[1.09]">
+          Start Your Care Management Journey{" "}
+          <span className="uppercase">Today</span>
         </h2>
 
         <a
@@ -43,50 +43,13 @@ export default function Footer() {
           <div className="flex flex-col gap-8 sm:flex-row sm:flex-wrap sm:gap-12 md:gap-16 lg:flex-1 lg:gap-[px] lg:pr-10">
             <div>
               <p className="text-xs font-medium text-footer-text" style={{ color: "#A6B8D1" }}>Follow us on</p>
-              <div className="mt-3 flex items-center gap-3">
-                <a
-                  href="https://www.facebook.com/profile.php?id=61589920250724"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Visit Facebook"
-                >
-                  <Image
-                    src="/images/facebook.svg"
-                    alt="Facebook"
-                    width={24}
-                    height={24}
-                    className="h-6 w-6"
-                  />
-                </a>
-                <a
-                  href="https://www.instagram.com/clinicus.ai/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Visit Instagram"
-                >
-                  <Image
-                    src="/images/instagram.svg"
-                    alt="Instagram"
-                    width={24}
-                    height={24}
-                    className="h-6 w-6"
-                  />
-                </a>
-                <a
-                  href="https://www.linkedin.com/company/clinicus-ai/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Visit LinkedIn"
-                >
-                  <Image
-                    src="/images/linkedin.svg"
-                    alt="LinkedIn"
-                    width={24}
-                    height={24}
-                    className="h-6 w-6"
-                  />
-                </a>
-              </div>
+              <Image
+                src="/images/social-icons.svg"
+                alt="Social media links"
+                width={93}
+                height={21}
+                className="mt-3"
+              />
             </div>
             <div>
               <p className="text-[11px] font-bold uppercase tracking-[0.1091em] text-footer-text" style={{ color: "#A6B8D1" }}>
@@ -113,7 +76,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-14 sm:mt-[18px] lg:mt-[18px]" style={{ height: "1px", backgroundColor: "#334766" }} />
+        <div className="mt-12 sm:mt-16 lg:mt-[12px]" style={{ height: "1px", backgroundColor: "#334766" }} />
 
         <div className="mt-5 flex flex-col gap-3 sm:mt-[22px] sm:flex-row sm:items-center sm:justify-between sm:gap-4">
           <p className="text-[11px] font-medium sm:text-[11.5px]" style={{ color: "#99ABC7" }}>
