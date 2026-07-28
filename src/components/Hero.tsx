@@ -67,7 +67,7 @@ export default function Hero() {
               <div className="relative w-full max-w-[833px] overflow-hidden rounded-[12px] border border-[#D2E2FF] bg-[#F7F7F7] px-6 pb-8 pt-28 shadow-[0_40px_80px_rgba(15,26,51,0.15)] sm:px-8">
                 <div className="absolute left-1/2 top-8 -translate-x-1/2">
                   <img
-                    src="/images/tick.svg"
+                    src="/images/Tick.svg"
                     alt="Success tick"
                     className="h-[64px] w-[64px]"
                   />
