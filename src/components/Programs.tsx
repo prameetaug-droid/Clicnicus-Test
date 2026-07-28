@@ -55,8 +55,8 @@ export default function Programs() {
                   className="rounded-t-[16px] object-cover sm:rounded-t-[18px]"
                 />
                 <span className="absolute left-5 top-5 inline-flex h-8 w-[60px] items-center justify-center rounded-lg bg-purple-light">
-                  <img 
-                    src={`/images/${program.tag}.svg`} 
+                  <Image
+                    src={`/images/${program.tag}.svg`}
                     alt={program.tag}
                     width={40}
                     height={24}

@@ -13,7 +13,7 @@ export default function StatsBar() {
       <SectionContainer>
         <div className="rounded-[20px] border border-[#e5ebf0] bg-[#e4eaf2] px-0 py-8 lg:h-[140px] lg:py-[31px]">
           <div className="flex flex-col items-center justify-center gap-6 lg:flex-row lg:gap-0">
-            {stats.map((stat, index) => (
+            {stats.map((stat) => (
               <div
                 key={stat.label}
                 className="flex w-full flex-col items-center justify-center lg:w-[300px]"

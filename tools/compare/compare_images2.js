@@ -36,7 +36,6 @@ function resizeNearest(src, targetW, targetH){
     const l = readPng(localImgPath);
     // choose target dimensions = min of both widths, scale proportionally to avoid upscaling too much
     const targetW = Math.min(u.width, l.width);
-    const targetH = Math.min(Math.round(u.height * (targetW/u.width)), Math.round(l.height * (targetW/l.width)));
     const ur = resizeNearest(u, targetW, Math.round(u.height * targetW / u.width));
     const lr = resizeNearest(l, targetW, Math.round(l.height * targetW / l.width));
 

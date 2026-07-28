@@ -8,7 +8,6 @@ const fs = require('fs');
   // find section by eyebrow text
   const result = await page.evaluate(()=>{
     function cs(el){ const s = window.getComputedStyle(el); const r = el.getBoundingClientRect(); return { color: s.color, fontFamily: s.fontFamily, fontSize: s.fontSize, fontWeight: s.fontWeight, lineHeight: s.lineHeight, rect:{x: r.x, y: r.y, width: r.width, height: r.height} }; }
-    const nodes = [];
     const sections = Array.from(document.querySelectorAll('section'));
     let targetSection = null;
     for(const sec of sections){ if(sec.innerText && sec.innerText.includes('PURPOSE-BUILT SOLUTION')){ targetSection = sec; break; } }

@@ -6,7 +6,7 @@
   await page.goto('http://localhost:3000', { waitUntil: 'networkidle' });
   try{
     await page.waitForSelector('footer', { timeout: 15000 });
-  }catch(e){ console.error('footer not found after wait'); }
+  }catch(error){ console.error('footer not found after wait', error); }
   const footerInfo = await page.evaluate(()=>{
     const footer = document.querySelector('footer');
     if(!footer) return {error:'no footer'};

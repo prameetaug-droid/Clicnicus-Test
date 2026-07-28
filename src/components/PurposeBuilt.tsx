@@ -1,3 +1,4 @@
+import Image from "next/image";
 import BlurGradient from "./BlurGradient";
 import {
   SectionContainer,
@@ -55,7 +56,7 @@ export default function PurposeBuilt() {
                 className="relative w-full rounded-[16px] bg-[rgba(228,234,242,0.56)] p-5 sm:p-6"
               >
                 <div className="pointer-events-none absolute left-1/2 top-1/2 z-10 h-6 w-6 -translate-x-1/2 -translate-y-1/2 sm:left-[calc(50%-110px)]">
-                  <img src="/images/Arrow.svg" alt="" className="h-full w-full" />
+                  <Image src="/images/Arrow.svg" alt="" width={24} height={24} className="h-full w-full" />
                 </div>
                 <div className="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
                   <div className="min-w-0 flex-1">

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import BlurGradient from "./BlurGradient";
 import {
   SectionContainer,
@@ -50,7 +51,7 @@ export default function Testimonials() {
                 &ldquo;{item.quote}&rdquo;
               </p>
               <div className="flex items-center gap-4 sm:mt-[14px]">
-                <img
+                <Image
                   src={item.avatar}
                   alt={`${item.initial} avatar`}
                   width={36}

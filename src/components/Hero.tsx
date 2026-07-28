@@ -1,5 +1,6 @@
 ﻿"use client";
 
+import Image from "next/image";
 import { FormEvent, useState, useEffect } from "react";
 import { createPortal } from "react-dom";
 import Script from "next/script";
@@ -20,7 +21,10 @@ export default function Hero() {
 
   // Only render form after hydration to prevent extension conflicts
   useEffect(() => {
-    setIsHydrated(true);
+    const timeoutId = window.setTimeout(() => {
+      setIsHydrated(true);
+    }, 0);
+    return () => window.clearTimeout(timeoutId);
   }, []);
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
@@ -66,9 +70,11 @@ export default function Hero() {
             <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-[#0F2C53]/20 px-4 py-6">
               <div className="relative w-full max-w-[833px] overflow-hidden rounded-[12px] border border-[#D2E2FF] bg-[#F7F7F7] px-6 pb-8 pt-28 shadow-[0_40px_80px_rgba(15,26,51,0.15)] sm:px-8">
                 <div className="absolute left-1/2 top-8 -translate-x-1/2">
-                  <img
+                  <Image
                     src="/images/Tick.svg"
                     alt="Success tick"
+                    width={64}
+                    height={64}
                     className="h-[64px] w-[64px]"
                   />
                 </div>
@@ -91,9 +97,11 @@ export default function Hero() {
                   <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-3">
                     <div className="space-y-3 text-center">
                       <div className="mx-auto flex h-[62px] w-[62px] items-center justify-center">
-                        <img
+                        <Image
                           src="/images/File.svg"
                           alt="File icon"
+                          width={35}
+                          height={35}
                           className="h-[35px] w-[35px]"
                         />
                       </div>
@@ -108,9 +116,11 @@ export default function Hero() {
                     <div className="relative space-y-3 text-center">
                       <div className="hidden md:block absolute -left-2 top-0 h-full w-px bg-white/70" />
                       <div className="mx-auto flex h-[62px] w-[62px] items-center justify-center">
-                        <img
+                        <Image
                           src="/images/People.svg"
                           alt="People icon"
+                          width={35}
+                          height={35}
                           className="h-[35px] w-[35px]"
                         />
                       </div>
@@ -125,9 +135,11 @@ export default function Hero() {
                     <div className="relative space-y-3 text-center">
                       <div className="hidden md:block absolute -left-2 top-0 h-full w-px bg-white/70" />
                       <div className="mx-auto flex h-[62px] w-[62px] items-center justify-center">
-                        <img
+                        <Image
                           src="/images/Calendar.svg"
                           alt="Calendar icon"
+                          width={35}
+                          height={35}
                           className="h-[35px] w-[35px]"
                         />
                       </div>

@@ -54,9 +54,7 @@ function FeatureIcon({ type }: { type: string }) {
   }
   if (type === "shield") {
     return (
-      // Use a static SVG asset for the shield so designers can update it in Figma
-      // Keep it as a plain <img> to avoid SSR/next/image layout issues with missing assets
-      <img
+      <Image
         src="/images/Audit-Ready%20Compliance.svg"
         alt="Audit-Ready Compliance"
         width={18}
@@ -67,8 +65,7 @@ function FeatureIcon({ type }: { type: string }) {
   if (type === "link") {
     // use 2in1.svg for link-type features (Tech Integrations, Risk Monitoring)
     return (
-      // Use a simple img tag so missing asset doesn't break SSR; replace with Image if the asset exists
-      <img src="/images/2in1.svg" alt="link icon" width={24} height={24} />
+      <Image src="/images/2in1.svg" alt="link icon" width={24} height={24} />
     );
   }
 
