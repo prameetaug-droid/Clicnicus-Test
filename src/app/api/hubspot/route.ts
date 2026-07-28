@@ -33,9 +33,14 @@ export async function POST(request: Request) {
   const payload = await response.text();
 
   if (!response.ok) {
-    return new NextResponse(payload || "HubSpot submission failed", {
-      status: response.status,
-    });
+    return NextResponse.json(
+      {
+        success: false,
+        error: payload || "HubSpot submission failed",
+        status: response.status,
+      },
+      { status: response.status }
+    );
   }
 
   const email = body.fields?.find((field: { name?: string; value?: string }) => field.name === "email")?.value || "";
