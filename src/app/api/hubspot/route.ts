@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { demoSubmissionTracker } from "@/lib/demoSubmissionTracker";
 
 export async function POST(request: Request) {
   const body = await request.json();
@@ -30,5 +31,11 @@ export async function POST(request: Request) {
     });
   }
 
-  return NextResponse.json({ success: true });
+  const email = body.fields?.find((field: { name?: string; value?: string }) => field.name === "email")?.value || "";
+  const tracked = await demoSubmissionTracker.recordSuccessfulSubmission({
+    email,
+    pageUri: formPayload.context.pageUri,
+  });
+
+  return NextResponse.json({ success: true, tracking: tracked });
 }
