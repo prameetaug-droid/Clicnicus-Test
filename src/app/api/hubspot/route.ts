@@ -3,20 +3,13 @@ import { demoSubmissionTracker } from "@/lib/demoSubmissionTracker";
 
 export const runtime = "nodejs";
 
+const DEFAULT_PORTAL_ID = "51257300";
+const DEFAULT_FORM_GUID = "099516c3-b602-4fcd-aeda-cc07e30085dd";
+
 export async function POST(request: Request) {
   const body = await request.json();
-  const portalId = process.env.HUBSPOT_PORTAL_ID;
-  const formGuid = process.env.HUBSPOT_FORM_GUID;
-
-  if (!portalId || !formGuid) {
-    return NextResponse.json(
-      {
-        success: false,
-        error: "HubSpot portal ID or form GUID is not configured on Vercel.",
-      },
-      { status: 500 }
-    );
-  }
+  const portalId = process.env.HUBSPOT_PORTAL_ID?.trim() || DEFAULT_PORTAL_ID;
+  const formGuid = process.env.HUBSPOT_FORM_GUID?.trim() || DEFAULT_FORM_GUID;
 
   const formPayload = {
     fields: body.fields || [],
