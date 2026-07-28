@@ -17,6 +17,7 @@ const features = [
 export default function Hero() {
   const [showPopup, setShowPopup] = useState(false);
   const [isHydrated, setIsHydrated] = useState(false);
+  const [submissionError, setSubmissionError] = useState<string | null>(null);
 
   // Only render form after hydration to prevent extension conflicts
   useEffect(() => {
@@ -25,6 +26,7 @@ export default function Hero() {
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    setSubmissionError(null);
     const formData = new FormData(event.currentTarget);
 
     const payload = {
@@ -50,10 +52,13 @@ export default function Hero() {
       if (response.ok) {
         setShowPopup(true);
       } else {
-        console.error("HubSpot submission failed", await response.text());
+        const errorText = await response.text();
+        console.error("HubSpot submission failed", errorText);
+        setSubmissionError(errorText || "The submission could not be completed. Please try again.");
       }
     } catch (error) {
       console.error("HubSpot submission failed", error);
+      setSubmissionError("The submission service is unavailable right now. Please try again in a moment.");
     }
   }
 
@@ -238,6 +243,10 @@ export default function Hero() {
                     <p className="text-center text-[10px] font-medium leading-[15px] text-[#8b95a0]">
                       By submitting this form, you agree to receive communications from Clinicus including emails, calls, and marketing messages. You may unsubscribe at any time.
                     </p>
+
+                    {submissionError ? (
+                      <p className="text-center text-sm font-medium text-red-600">{submissionError}</p>
+                    ) : null}
 
                     <button
                       type="submit"
