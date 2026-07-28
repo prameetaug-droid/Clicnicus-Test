@@ -35,7 +35,11 @@ export class DemoSubmissionTracker {
 
     this.submissions.push(record);
 
-    await this.appendToStorage(record);
+    try {
+      await this.appendToStorage(record);
+    } catch (error) {
+      console.warn("[demo-submit-tracker] storage write failed", error);
+    }
 
     console.info("[demo-submit-tracker]", JSON.stringify(record));
 
@@ -51,8 +55,12 @@ export class DemoSubmissionTracker {
   }
 
   private async appendToStorage(record: SubmissionRecord) {
-    await fs.mkdir(path.dirname(this.storageFilePath), { recursive: true });
-    await fs.appendFile(this.storageFilePath, `${JSON.stringify(record)}\n`, "utf8");
+    const tempDir = process.env.TMPDIR || process.env.TEMP || "/tmp";
+    const fallbackPath = path.join(tempDir, "demo-submissions.jsonl");
+    const targetPath = this.storageFilePath || fallbackPath;
+
+    await fs.mkdir(path.dirname(targetPath), { recursive: true });
+    await fs.appendFile(targetPath, `${JSON.stringify(record)}\n`, "utf8");
   }
 }
 
